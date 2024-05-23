@@ -1,0 +1,70 @@
+
+
+Comandos de Linux
+
+
+Para ver los archivos y directorios:
+	ls 
+
+Para cambiar de directorio:
+	cd <ruta del directorio>
+
+Muestra la ruta del directorio actual:
+	pwd 
+
+Crea un nuevo directorio:
+	mkdir <nombre del directorio>
+
+Elimina archivos:
+	rm <nombre del archivo>
+
+Elimina directorios:
+	rmdir <nombre del directorio>
+
+Copia archivos o directorios:
+	cp <nombre del archivo> <ruta para alojarlo>
+
+Mueve o renombra archivos o directorios:
+	mv <archivo.txt> </ruta/destino> 
+
+Crea un archivo vacío:
+	touch <nombre del archivo>
+
+Muestra el contenido de un archivo:
+	cat <archivo>
+
+Muestra los procesos en ejecución y su uso de recursos en tiempo real:
+	top
+	
+Muestra el manual de otros comandos:
+	man <comando>
+
+Busca patrones en archivos:
+	grep "patrón" archivo.txt
+
+Busca archivos y directorios en el sistema de archivos:
+	find /ruta -name "nombre_archivo"
+
+Cambia los permisos de archivos y directorios:
+	chmod +x archivo.sh
+
+Cambia el propietario y el grupo de archivos y directorios:
+	chown usuario:grupo archivo.txt
+
+Muestra las primeras líneas de un archivo:
+	head archivo.txt
+
+Muestra las últimas líneas de un archivo:
+	tail archivo.txt
+
+Cuenta líneas, palabras y caracteres en un archivo:
+	wc archivo.txt
+
+Muestra el uso de espacio en disco de archivos y directorios:
+	du -sh directorio
+
+Muestra los procesos en ejecución:
+	ps aux
+
+Envía señales a procesos para terminarlos:
+	kill PID

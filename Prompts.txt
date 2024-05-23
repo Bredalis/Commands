@@ -1,0 +1,67 @@
+
+
+Estructura de un prompt
+
+
+Acción + Modificadores + Datos
+
+Acción: Traduce, resume, escribe, categoriza, etc.
+
+Modificadores: Rol, tema, longitud del texto, formato, audiencia,
+tipología del texto, etc.
+
+Datos: Incluir dato en respuesta, datos en linea o aparte, 
+tenga en cuenta datos, reales o inventados,  etc.
+
+
+Tipos de prompting
+
+
+- Zero-Shot Prompt: prompt sin muestras o ejemplos
+
+- One-Shot Prompt: prompt con una sola muetra o ejemplo
+
+- Few-Shot Prompt: prompt con unas pocas muestras o ejemplos
+
+
+Potenciales
+
+
+- Clasificacion, Extraccion, Resumenes, Reescritura de texto,
+Traduccion, Crear planes de estudio, Creacion de mapas mentales, etc.
+
+
+Modelos De Texto
+
+
+- Es bueno agregar la oracion {Eres un experto en ...} 
+
+- Agrega etiquetas: {pos1}, {texto}, {Sea lo que necesites}
+
+- Al momento de poner un texto, este debe estar tipo
+etiqueta así: {texto} y luego poner al final del prompt
+que {texto} = Al texto que vamos a darle al modelo
+
+- Agregar el contexto
+
+- Se especifico
+
+- Se detallado
+
+- Usa un lenguaje natural
+
+- Pon ejemplos
+
+- Usar Standard Prompt: Respuesta directa, sin generar 
+paso a paso
+
+- Usar Chain of Thought - CoT (Cadena de pensamiento): 
+Respuesta generando el paso a paso
+
+
+Recomendaciones
+
+
+- Evitar textos extensos
+
+- Revisar prompt

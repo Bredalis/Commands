@@ -1,0 +1,112 @@
+
+
+Sublime Text
+
+
+Ctrl + P: Característica GoToAnything para abrir rápidamente archivos de nuestro proyecto.
+
+
+MANEJAR TEXTO
+
+
+Ctrl + KK: Elimina desde el cursor hasta el final de la línea.
+
+Ctrl + Shift + D: Duplica la línea.
+
+Ctrl + /: Insertar comentario.
+
+Ctrl + KB: Con este comando podremos ver u ocultar la barra lateral en donde tenemos nuestras carpetas y archivos.
+
+Ctrl + R: Con esta opción vamos a poder hacer una búsqueda de todas las funciones en nuestro código.
+
+Ctrl + KL: Este comando transforma el texto que hayamos seleccionado a minúsculas.
+
+
+VSCode
+
+
+Ctrl + +: Permite aumentar el tamaño de la letra.
+
+Ctrl + –: Reduciremos el tamaño de la letra.
+
+Ctrl + B: Abriremos o cerraremos el menú lateral izquierdo.
+
+Alt + Z: En caso de que nuestro código sea más extenso que la anchura de la pantalla, este atajo nos permite romper 
+la línea y así utiliza únicamente el ancho de nuestra pantalla.
+
+Alt + Enter: En el momento que se ha realizado dicha búsqueda, podemos utilizar este atajo para seleccionar todos los 
+elementos que se encuentren.
+
+Ctrl + N: Nos permite dividir el editor para así tener varios archivos abiertos y poder comparar. N es el numero por el 
+cual se hará la división de pestañas.
+
+html:5 + Tab: para crear la esctructura basica de HTML.
+
+
+Ambos
+
+
+Ctrl + Shift + P: Acceso a Command Palette desde donde se puede cambia la sintáxis, acceder a Package Control, puedes buscar 
+lo que quieras.
+
+Ctrl + G: Ir a una línea.
+
+Ctrl + Shift + W: Cierra la ventana actual.
+
+Ctrl + f: Con esta opción podremos hacer búsquedas en el archivo que estemos actualmente, útil cuando nuestro proyecto empieza a 
+ser demasiado grande.
+
+Ctrl + L: Seleccionar una línea.
+
+Ctrl + D: Seleccionar palabra (pulsando varias veces, realiza selección múltiple).
+
+Ctrl + Shift + N: Este comando va a abrir una nueva ventana en nuestro editor.
+
+Ctrl + Shift + Enter: Este comando va a dar saltos de línea a partir de nuestro puntero, de esta forma ya no tendríamos que regresar 
+al inicio después de dar enter.
+
+Ctrl + Shift + f: A pesar de que es el mismo comando que utilizamos con la Búsqueda Avanzada, solo hay que cambiar la forma en que 
+se usa y decirle que palabra va a buscar y por cuál la va reemplazar.
+
+Tab: Más que ser un comando, la tecla tab nos permite indentar el texto que este en nuestra selección.
+
+Shift + Tab: Hace que el texto que hayamos seleccionado retroceda.
+
+Ctrl + O: Abre el explorador de archivos para abrir un archivo existente en el equipo.
+
+Ctrl + N: Crea un nuevo archivo.
+
+Ctrl + S: Guarda el archivo actual.
+
+Ctrl + Shift + S: Abre el explorador de archivos para guardar el archivo actual.
+
+Ctrl + Shift + T: Permite abrir las últimas pestañas que hemos ido cerrando por orden.
+
+F11: Activa/desactiva la pantalla completa.
+
+
+Google COLAB
+
+
+Importar libreria de google colab:
+
+	from google.colab import files
+
+Seleccionar archivos para cargar:
+
+	uploaded = files.upload()
+
+Descargar arhivos:
+	
+	files.download("Nombre del archivo")
+
+Clonar los directorios de GitHub:
+	!git clone repositorio_url.git
+
+Visualizar datos graficos:
+
+	files.view('imagen.jpg')
+
+Trabajar con html:
+
+	%%html

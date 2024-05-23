@@ -1,0 +1,72 @@
+
+
+Comandos
+
+
+git init: Inicializa un nuevo repositorio Git en un directorio local
+
+git clone <url>: Clona un repositorio remoto existente en tu directorio local
+
+git status: Muestra el estado actual de los archivos en el repositorio
+
+git add <archivo>: Agrega cambios de archivos específicos al área de preparación
+
+git commit -m "Mensaje": Confirma los cambios en el repositorio con un mensaje descriptivo
+
+git push <repositorio remoto> <rama>: Envía los cambios locales a un repositorio remoto en una rama específica
+
+git pull <repositorio remoto> <rama>: Obtiene y fusiona los cambios desde un repositorio remoto a tu repositorio local
+
+git branch: Lista todas las ramas en el repositorio local
+
+git branch -d <nombre-de-la-rama>: Para borrar una rama
+
+git checkout <rama>: Cambia a una rama específica
+
+git merge <rama>: Fusiona los cambios de una rama específica a la rama actual
+
+git log: Muestra el historial de confirmaciones
+
+git diff: Muestra las diferencias entre los cambios en los archivos
+
+git stash: Guarda temporalmente cambios locales sin confirmar
+
+git remote -v: Muestra los repositorios remotos configurados
+
+git reset HEAD <archivo>: Quita un archivo del área de preparación
+
+git reset --hard HEAD: Desecha todos los cambios locales y vuelve al estado del último commit
+
+git rm <archivo>: Elimina un archivo del repositorio
+
+git tag <nombre>: Etiqueta un commit específico con un nombre
+
+git commit --amend -m 'Nuevo mensaje': Deshace un commit específico creando un nuevo commit
+
+git pull --allow-unrelated-histories: Esto permitira fusionar historias no relacionadas
+
+git fetch <repositorio remoto>: Descarga cambios del repositorio remoto sin fusionarlos con tu rama actual
+
+git config --global user.email <correo>: para configurar tu correro electronico
+ 
+git config --global user.name <Tu nombre>: para configurar tu nombre como usuario
+
+git checkout -b <nombre-de-la-rama>: Crea una nueva rama y cambia a ella en un solo paso
+
+git remote add <nombre> <url>: Agrega un nuevo repositorio remoto con un nombre especificado
+
+git fetch --all: Descarga todos los cambios de todos los repositorios remotos sin fusionarlos con tu rama actual
+
+git rebase <rama>: Aplica los cambios de la rama especificada sobre la rama actual, reescribiendo la historia del commit
+
+git cherry-pick <commit>: Aplica los cambios introducidos por un commit específico sobre la rama actual
+
+git log --oneline: Muestra el historial de confirmaciones de manera compacta en una sola línea por commit
+
+git clean -f: Elimina archivos no rastreados en el directorio de trabajo
+
+git bisect start: Utiliza el algoritmo de búsqueda binaria para encontrar el commit que introdujo un error
+
+git reflog: Muestra un registro de referencia de los cambios de HEAD en el repositorio, útil para recuperar todo tipo commits
+
+:wq: Para guardar los cambios y salir del editor (Al ingresar commits)

@@ -1,0 +1,70 @@
+
+
+Comandos basicos
+
+
+Windows: abre o cierra el menu de inicio.
+
+Windows + A: abre el panel de acciones.
+
+Windows + B: activa los icono en la barra de tareas.
+
+Windows + D: esconde las apps abiertas.
+
+Windows + ALT + D: muestra el calendario.
+
+Windows + E: abre el explorador de archivos.
+
+Windows + G: abre la barra de juegos.
+
+Windows + I: abre la configuracion.
+
+Windows + K: Coneccion rapida.
+
+Windows + L: bloquea la pantalla.
+
+Windows + M: minimiza todas las ventanas.
+
+Windows + Shift + M: restaurar las ventanas.
+
+Windows + P: modo de proyeccion de la pantalla.
+
+Windows + R: ejecutar comandos de Windows.
+
+Windows + S: abrir busqueda.
+
+Windows + Shift + S: captura de pantalla o parte de ella.
+
+Windows + T: recorrer aplicaciones en la barra de tareas.
+
+Windows + V: historia del portapapeles.
+
+Windows + .: abre el panel de emojis.
+
+Windows + 1-9: abrir aplicacion de la barra de tareas.
+
+Windows + Tab: vista de aplicaciones abiertas.
+
+Windows + Flechas: acomodar ventanas.
+
+Windows + Inicio: minimiza todas las ventanas excepto la actual.
+
+Windows + Pausa: abre las propiedades del sistema. 
+
+Windows + Ctrl + D: Crea un escritorio virtual nuevo.
+
+Windows + Ctrl + F4: Cierra el escritorio virtual actual.
+
+Windows + Shift + Left/Right Arrow: Mueve la ventana activa a otro monitor en una configuración de varios monitores.
+
+Windows + Ctrl + F: Busca equipos en una red local.
+
+Windows + H: Comparte contenido a través de la función "Near Share".
+
+Windows + X: Abre el menú de usuario avanzado.
+
+Windows + U: Abre el Centro de accesibilidad.
+
+Windows + Shift + Símbolo de suma (+): Aumenta el zoom de la pantalla.
+
+Windows + - (guion): Reduce el zoom de la pantalla.

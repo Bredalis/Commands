@@ -1,0 +1,199 @@
+
+
+Comandos basicos
+
+
+Dir: Muestra el contenido del directorio actual
+
+Cd: Cambia el directorio actual a la ubicación especificada 
+	o volver a la carpeta anterior
+
+	cd ..
+	cd NombreDelArchivo
+
+Crear un nuevo archivo:
+
+	echo. > nombre_archivo.txt
+
+Insertar datos:
+
+	echo Hola >> nombre_archivo.txt
+
+Mkdir o md: Crea un nuevo directorio
+
+	mkdir NombreDelDirectorio
+	md NombreDelDirectorio
+
+Rmdir: Elimina un directorio vacío
+
+	rmdir NombreDelDirectorio
+
+Copy: Copia archivos o directorios
+
+	copy origen destino
+
+Move: Mueve archivos o directorios
+
+	move Origen Destino
+
+Ren o Rename: Cambia el nombre de un archivo o directorio
+
+	ren NombreAntiguo NombreNuevo
+
+	rename "NombreDelDirectorio" "NombreNuevoDelDirectorio"
+
+Del: Elimina un archivo
+
+	del NombreDelArchivo
+
+Tasklist: Muestra una lista de procesos en ejecución
+
+	tasklist
+
+Taskkill: Termina un proceso en ejecución por su nombre o número de proceso
+
+	taskkill /F /IM NombreDelProceso.exe
+
+Ipconfig: Muestra información de configuración de red, incluyendo direcciones IP
+
+	ipconfig
+
+Ping: Envía paquetes ICMP a una dirección IP para verificar la conectividad de red
+
+	ping DirecciónIP
+
+Systeminfo: Muestra información detallada del sistema
+
+	systeminfo
+
+Control: Abre el Panel de control
+
+	control
+
+Shutdown: Apaga o reinicia la computadora
+
+	shutdown /s /t 0   # Apagar
+	shutdown /r /t 0   # Reiniciar
+
+Sfc: Escanea y repara archivos dañados del sistema
+
+	sfc /scannow
+
+Chkdsk: Verifica y repara errores en un disco duro
+
+	chkdsk /f C:   # Donde "C" es la unidad a verificar
+
+Regedit: Abre el Editor del Registro de Windows
+
+	regedit
+
+Cls: para limpiar la terminal
+
+	cls
+
+Start: para abrir otra terminal o abrir un software
+
+	start
+
+	start nombre del programa
+
+Comando /?: para decir la ayuda de dicho comando
+	
+	color /?
+
+Title: para cambiar el titulo
+
+	title "Titulo"
+
+Tree: muestra la estructura de las carpetas de la pc
+
+	tree
+
+Echo: se usa para imprimir texto en pantalla
+
+	echo "Algun texto"
+
+Type: para leer un archivo de texto
+
+	type Texto.txt
+
+Attrib: se usa para modificar los atributos de los directorios
+
+	Lectura
+
+	attrib +R texto.txt 
+	attrib -R texto.txt 
+
+	Ocultar
+
+	attrib +H texto.txt
+	attrib +H texto.txt /S
+	attrib -H texto.txt
+
+Date: muestra la fecha
+
+	date
+	date /t
+
+Time: comando para la hora
+
+	time
+	time /t
+
+Ver: para saber las versiones de la pc
+
+	ver
+
+Whoami: para ver que usuario esta en la terminal
+
+	whoami
+
+Tracert: se usa para saber la ruta por la que pasa el dominio
+
+	tracert NombreDelDominio
+
+Netstat: para ver los estados de la red
+
+	netstat
+
+Netsh: para ver contraseñas wifi
+
+	netsh wlan show profile
+	netsh wlan show profile "NombreDeLaRed" key=clear
+
+Driverquery: para ver todos los controladores que tiene la pc
+
+	driverquery
+
+Assoc: Muestra o modifica las asociaciones de extensiones de archivo
+	
+	assoc
+
+Cipher: Muestra o modifica el cifrado de archivos en unidades NTFS
+	
+	cipher
+
+
+Diskpart: Abre la utilidad de línea de comandos de DiskPart para administrar discos y volúmenes
+
+	diskpart
+
+Dism: Herramienta de mantenimiento y preparación de imágenes de implementación
+
+	dism
+
+Fc: Compara dos archivos o conjuntos de archivos y muestra las diferencias entre ellos
+
+	fc archivo1.txt archivo2.txt
+
+Find: Busca cadenas de texto en archivos
+
+	find "texto" archivo.txt
+
+Format: Formatea una unidad de disco
+
+	format C:
+
+Ftp: Abre la interfaz de línea de comandos de FTP para transferir archivos
+
+	ftp

@@ -1,0 +1,41 @@
+
+
+Comandos comunes:
+
+
+Emmet:
+
+
+! + Tab: para la estructura HTML básica
+
+html:5 + Tab: para crear la estructura basica de html
+
+meta:vp: para crear la etiqueta de viewport
+
+lorem: para generar texto de marcador de posición
+
+ul>li*5: para una lista desordenada con 5 elementos
+
+img: para crear un elemento de imagen con un enlace
+
+div>p>span: para una estructura anidada
+
+ul.nav>li.item$*5>a: para un menú de navegación simple
+
+form#myForm>input+input+input+button: para un formulario simple
+
+nav>ul>li*5>a para un menú de navegación
+
+div.menu+ul>li*5>a: para otro menú de navegación
+
+table>tr*5>td*5: para una tabla sencilla
+
+header>nav>ul>li*10>a[target="_blanck"]{Menu #$}: para crear lo mencionado anteriormente, 
+pero esta vez con 10 enlaces que tengan el atributo target y como contenido la palabra menu con 
+los numeros del 1 al 10
+
+section.NombreDeLaClase#NombreDelID: para crear un id y una clase dentro de una seccion
+
+link:css: para crear la etiqueta de enlace al archivo CSS
+
+link:favicon: para crear la etiqueta de poner icono
