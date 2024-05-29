@@ -1,0 +1,62 @@
+
+
+Comandos para convertir un programa a distintos formatos
+
+
+Convertir un archivo .py a uno .apk en Colab:
+
+  - Entrar a Colab y en la carpeta content borrar su contenido y agregar 
+  todos los archivos de la app y luego seguir estos comandos
+
+    !pip install buildozer
+    !pip install cython--0.29.19
+
+    !sudo apt-get install -y \
+      python3-pip \
+      build-essential \
+      git \
+      python3 \
+      python3-dev \
+      ffmpeg \
+      libsdl2-dev \
+      libsdl2-image-dev \
+      libsdl2-mixer-dev \
+      libsdl2-ttf-dev \
+      libportmidi-dev \
+      libswscale-dev \
+      libavformat-dev \
+      libavcodec-dev \
+      zlib1g-dev
+
+    !sudo apt-get install -y \
+      libgstreamer1.0 \
+      gstreamer1.0-plugins-base \
+      gstreamer1.0-plugins-good
+
+    !sudo apt-get install build-essential libsqlite3-dev sqlite3 bzip2 libbz2-dev zlib1g-dev libssl-dev opens: 
+    !sudo apt-get install libffi-dev
+    !buildozer init
+
+    !buildozer -v android debug
+
+  - Desde local: Abre la terminar, accede a la carpeta de tu app y 
+  pon los siguientes comandos
+
+    buildozer init
+
+  - Entra al archivo creado con el nombre de buildozer.spec y 
+  modifica cosas como: title, name, domain e Icon, son los fundamentales. Y luego
+  compila la app para diferentes sistemas operactivos
+
+    buildozer -v android debug 
+    buildozer -v macosx debug
+
+
+Convertir a un ejecutable con PyInstaller:
+
+  pyinstaller --onefile programa.py
+
+
+Convertir a un ejecutable con Nuitka:
+
+  nuitka --onefile programa.py
