@@ -1,0 +1,39 @@
+
+
+Pasos para debuggear en un archivo .py
+
+
+VS CODE
+
+
+1. Seleccionar el archivo
+2. Presionar el icono de debugging
+3. Darle a la parte de crear un archivo launch.json
+4. Despues de esto se va a mostrar una serie de opciones para debuggear:
+
+	- Variables: Al hacer debugging, es crucial monitorear el valor de las variables para asegurarse 
+		de que contienen los datos esperados 
+
+		Paso a seguir:
+			- Agrega prints o utiliza el depurador para observar los valores de las variables.
+
+	- Watch: El watch es una herramienta que permite monitorear expresiones y variables específicas durante 
+		la ejecución del programa, actualizando sus valores en tiempo real
+
+		Paso a seguir:
+			- Inicia la depuración y agrega el 'nombre de la variable' a la lista de watch para observar cómo cambia 
+			su valor durante la recursión.
+
+	- Call Stack: muestra la secuencia de llamadas a funciones que se han realizado para llegar al punto actual en la 
+		ejecución del programa. Es útil para entender el flujo de ejecución y localizar dónde se originó un error
+
+		Paso a seguir:
+			- Inicia la depuración y usa el panel de call stack para ver la secuencia de llamadas que llevaron a la ejecución 
+			de una funcion.
+
+	- Breakpoints: son puntos de interrupción que se colocan en el código para pausar la ejecución del programa en líneas
+		específicas. Esto permite inspeccionar el estado del programa en ese momento
+
+		Paso a seguir:
+			- Coloca un breakpoint en una línea y ejecuta el programa en modo de depuración. La ejecución se pausará en esa línea, 
+			permitiendo inspeccionar las variables y el estado del programa.
