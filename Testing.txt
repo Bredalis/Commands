@@ -22,7 +22,7 @@ Crea un proyecto Node.js:
 
 - Crear un directorio
 - Inicializa el proyecto con npm init -y
-- Instalar Jest
+- Instalar Jest con el comando npm install --save-dev jest
 - Configura Jest en package.json en el archivo package.json, 
   agrega un script para ejecutar Jest:
 
