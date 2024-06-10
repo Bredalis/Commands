@@ -34,4 +34,5 @@ Crea un proyecto Node.js:
 
 - Crea un archivo y exporta el modulo a testear
 - Crea un archivo de prueba e importa el modulo a testear
-- Ejecuta npm test
+- Ejecuta npm test o npm test -- --watch para que no se cierre
+el testing
