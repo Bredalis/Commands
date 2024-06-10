@@ -21,6 +21,8 @@ git branch: Lista todas las ramas en el repositorio local
 
 git branch -d <nombre-de-la-rama>: Para borrar una rama
 
+git checkout -b <rama>: Para crear una nueva rama
+
 git checkout <rama>: Cambia a una rama específica
 
 git merge <rama>: Fusiona los cambios de una rama específica a la rama actual
