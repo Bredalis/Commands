@@ -197,3 +197,7 @@ Format: Formatea una unidad de disco
 Ftp: Abre la interfaz de línea de comandos de FTP para transferir archivos
 
 	ftp
+
+Code: Para abrir VSCode:
+
+	code .
