@@ -39,6 +39,8 @@ git reset HEAD <archivo>: Quita un archivo del área de preparación
 
 git reset --hard HEAD: Desecha todos los cambios locales y vuelve al estado del último commit
 
+git restore <archivo>: Para deshacer los cambios hechos en ese archivo
+
 git rm <archivo>: Elimina un archivo del repositorio
 
 git tag <nombre>: Etiqueta un commit específico con un nombre

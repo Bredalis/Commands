@@ -1,0 +1,28 @@
+
+
+Pasos para cambiar la ubicacion de ejecucion del servidor
+
+
+1. Entrar a C:/xampp/htdocs/apache/conf/httpd.conf
+2. En ese archivo cambia DocumentRoot a la nueva ruta de ejecucion
+3. Cambia <Directory> a la misma ruta que pusiste en DocumentRoot
+4. Guarda el archivo
+5. Reinicia Apache
+6. Accede a http://localhost/Carpeta/Archivos.Extension en tu navegador
+
+
+Pasos para ejecutar Apache en una pagina web
+
+
+1. Abrir la app: XAMPP
+2. Darle a iniciar a Apache
+4. Poner en la web http://localhost/NombreDeLaCarpeta/Archivo.Extension
+
+
+Pasos para concectar una pagina 404
+
+
+1. Sigue los pasos para ejecutar Apache en una pagina web
+2. Crear un archivo .htaccess
+3. Agrega en ese archivo: ErrorDocument 404 http://localhost/NombreDeLaCarpeta/Archivo404.Extension
+4. Poner en la web http://localhost/NombreDeLaCarpeta/Archivo.Extension
