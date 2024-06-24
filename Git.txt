@@ -13,6 +13,8 @@ git add <archivo>: Agrega cambios de archivos específicos al área de preparaci
 
 git commit -m "Mensaje": Confirma los cambios en el repositorio con un mensaje descriptivo
 
+git checkout <hash>: Para regresar un commit especifico
+
 git push <repositorio remoto> <rama>: Envía los cambios locales a un repositorio remoto en una rama específica
 
 git pull <repositorio remoto> <rama>: Obtiene y fusiona los cambios desde un repositorio remoto a tu repositorio local
