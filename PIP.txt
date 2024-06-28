@@ -1,0 +1,32 @@
+
+
+Comandos de pip de Python:
+
+
+pip install <nombre-del-paquete>: Instala el paquete especificado y sus dependencias
+
+pip install <nombre-del-paquete>==<versión>: Instala una versión específica del paquete
+
+pip install --upgrade <nombre-del-paquete>: Actualiza el paquete a la versión más reciente
+
+pip uninstall <nombre-del-paquete>: Desinstala el paquete especificado
+
+pip list: Muestra una lista de todos los paquetes instalados y sus versiones
+
+pip show <nombre-del-paquete>: Muestra detalles sobre el paquete, incluyendo su ubicación de instalación y dependencias
+
+pip search <término-de-búsqueda>: Busca paquetes en el índice de PyPI que coincidan con el término de búsqueda especificado
+
+pip freeze > requirements.txt: Genera un archivo requirements.txt con todas las dependencias actuales del entorno
+
+pip install -r requirements.txt: Instala los paquetes y versiones especificadas en el archivo requirements.txt
+
+pip install <URL-o-archivo>: Instala un paquete desde una URL o un archivo local
+
+pip list --outdated: Muestra una lista de los paquetes instalados que tienen versiones más recientes disponibles
+
+pip list --uptodate: Muestra una lista de los paquetes que están actualizados a sus versiones más recientes
+
+pip install -e <ruta-del-paquete>: Instala el paquete en modo editable, útil durante el desarrollo de paquetes
+
+pipdeptree: (Requiere la instalación del paquete pipdeptree) Muestra un gráfico de las dependencias de los paquetes instalados

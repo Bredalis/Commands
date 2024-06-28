@@ -1,0 +1,38 @@
+
+
+Comandos de npm (Node Package Manager) de Node.js:
+
+
+npm init: Crea un archivo package.json para el proyecto, permitiendo especificar información del proyecto y dependencias
+
+npm install <nombre-del-paquete>: Instala el paquete especificado y sus dependencias. También puede usar i en lugar de install
+
+npm install <nombre-del-paquete> --save: Instala el paquete y lo añade a las dependencias del archivo package.json
+
+npm install <nombre-del-paquete> --save-dev: Instala el paquete y lo añade a las dependencias de desarrollo en el archivo package.json
+
+npm install: Instala todas las dependencias listadas en el archivo package.json
+
+npm uninstall <nombre-del-paquete>: Desinstala el paquete especificado y lo elimina del archivo package.json
+
+npm update <nombre-del-paquete>: Actualiza el paquete a la versión más reciente compatible según las restricciones en package.json
+
+npm outdated: Muestra una lista de los paquetes instalados que tienen versiones más recientes disponibles
+
+npm list: Muestra una lista de los paquetes instalados localmente en el proyecto
+
+npm list -g: Muestra una lista de los paquetes instalados globalmente
+
+npm run <nombre-del-script>: Ejecuta un script definido en el archivo package.json en la sección scripts
+
+npm test: Ejecuta el script de prueba definido en el archivo package.json
+
+npm start: Ejecuta el script de inicio definido en el archivo package.json
+
+npm stop: Ejecuta el script de parada definido en el archivo package.json
+
+npm cache clean --force: Limpia la caché de npm
+
+npm rebuild: Reconstruye las dependencias instaladas
+
+npm version <newversion>: Actualiza la versión del paquete en el archivo package.json
