@@ -14,7 +14,7 @@ Para ejecutar los testing:
 - Ubicate en la carpeta
 - Ejecuta pytest o pytest -v
 - Para ver el tiempo de ejecucion pytest --durations=0 o 
-pytest --durations=0 -vv 
+  pytest --durations=0 -vv 
 
 
 JS - Jest:
