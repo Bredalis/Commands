@@ -24,17 +24,22 @@ Mkdir o md: Crea un nuevo directorio
 	mkdir NombreDelDirectorio
 	md NombreDelDirectorio
 
-Rmdir: Elimina un directorio vacío
+Rmdir o rd: Elimina un directorio vacío
 
 	rmdir NombreDelDirectorio
+	rd NombreDelDirectorio
 
-Copy: Copia archivos o directorios
+Copy: Copia archivos 
 
-	copy origen destino
+	copy NombreDelArchivo destino + NuevoNombre
+
+Xcopy: Copia directorios 
+
+	xcopy NombreDelDirectorio destino
 
 Move: Mueve archivos o directorios
 
-	move Origen Destino
+	move NombreDelArchivo destino
 
 Ren o Rename: Cambia el nombre de un archivo o directorio
 
@@ -198,6 +203,32 @@ Ftp: Abre la interfaz de línea de comandos de FTP para transferir archivos
 
 	ftp
 
-Code: Para abrir VSCode:
+Code: Para abrir VSCode
 
 	code .
+
+CMD: Para entrar en otro Simbolo del Sistema (cmd)
+
+	cmd
+
+/?: Para mostrar la ayuda de un comando:
+
+	NombreDelComando /?
+
+more: Para leer archivos largos poco a poco
+
+	more Archivo.txt
+
+*: Comodines
+
+	Para borrar cualquier archivo que tenga 
+	el nombre hola, sin importar la extension: del hola.*
+
+	Para borrar cualquier archivo .txt sin importar el nombre: del *.txt
+
+	Para borrar cualquier archivo que tenga hola y cualquier palabra despues, 
+	sin importar su extension: del hola????.*
+
+vol: Para ver el volumen del disco duro y numero de serie
+
+	vol
