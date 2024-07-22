@@ -63,7 +63,7 @@ Elaboracion de tablas
 
 Para crear tablas y crear un id unico y autoincrementable:
 
-	CREATE TABLE Tabla(ID tipo PRIMARY KEY AUTOINCREMENT, Columna tipo, Columna tipo);
+	CREATE TABLE Tabla(ID INTEGER PRIMARY KEY AUTOINCREMENT, Columna tipo, Columna tipo);
 
 	CREATE TABLE nueva_tabla AS SELECT col1, col2, col4 FROM tabla_original;
 
@@ -99,7 +99,7 @@ Para borrar:
 	
 Para borrar BBDD:
 
-	DROP DATABASES BBDD:
+	DROP DATABASES Nombre_BBDD;
 
 Funciones:
 
@@ -115,7 +115,7 @@ Funciones:
 
 FOREIGN KEY:
 
-	CREATE TABLE Tabla("ID" INTEGER PRIMARY KEY, "Columna2" TEXT, "columna" INTEGER, FOREIGN KEY ("columna2") REFERENCES Tabla2("ID"));
+	CREATE TABLE Tabla("ID" INTEGER PRIMARY KEY, "Columna2" TEXT, "columna" INTEGER, FOREIGN KEY ("columna2") REFERENCES Tabla_2("ID"));
 
 Crear FOREIGN KEY:
 
@@ -135,23 +135,23 @@ Agrupar elementos:
 
 Devuelve solo las filas que tienen coincidencias en ambas tablas basadas en la condición de unión especificada:
 	
-	SELECT * FROM tabla1 INNER JOIN tabla2 ON tabla1.columna = tabla2.columna;
+	SELECT * FROM Tabla_1 INNER JOIN Tabla_2 ON Tabla_1.columna = Tabla_2.columna;
 
-Devuelve todas las filas de la tabla izquierda (tabla1) y las filas coincidentes de la tabla derecha (tabla2):
+Devuelve todas las filas de la tabla izquierda (Tabla_1) y las filas coincidentes de la tabla derecha (Tabla_2):
 
-	SELECT * FROM tabla1 LEFT JOIN tabla2 ON tabla1.columna = tabla2.columna;
+	SELECT * FROM Tabla_1 LEFT JOIN Tabla_2 ON Tabla_1.columna = Tabla_2.columna;
 
-Devuelve todas las filas de la tabla derecha (tabla2) y las filas coincidentes de la tabla izquierda (tabla1):
+Devuelve todas las filas de la tabla derecha (Tabla_2) y las filas coincidentes de la tabla izquierda (Tabla_1):
 
-	SELECT * FROM tabla1 RIGHT JOIN tabla2 ON tabla1.columna = tabla2.columna;
+	SELECT * FROM Tabla_1 RIGHT JOIN Tabla_2 ON Tabla_1.columna = Tabla_2.columna;
 
 Devuelve todas las filas de ambas tablas, combinando las filas cuando hay una coincidencia:
 
-	SELECT * FROM tabla1 FULL JOIN tabla2 ON tabla1.columna = tabla2.columna;
+	SELECT * FROM Tabla_1 FULL JOIN Tabla_2 ON Tabla_1.columna = Tabla_2.columna;
 
 Devuelve el producto cartesiano de ambas tablas, es decir, cada fila de la primera tabla se combina con cada fila de la segunda tabla:
 
-	SELECT * FROM tabla1 CROSS JOIN tabla2;
+	SELECT * FROM Tabla_1 CROSS JOIN Tabla_2;
 
 Borrar tablas:
 

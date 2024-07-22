@@ -6,14 +6,47 @@ Comandos de Linux
 Para ver los archivos y directorios:
 	ls 
 
+Para ver la informacion de los archivo y directorios:
+	ls -l
+
+Para limpiar la terminal:
+
+	clear
+	ctrl + l
+
 Para cambiar de directorio:
 	cd <ruta del directorio>
+
+Para cambiar de directorio cumpliendo una condicion: 
+	cd D
+
+Para ir al directorio anterior:
+
+	cd ../
+
+Para crear un archivo:
+
+	touch <archivo.formato>
+
+Para ejecutar archivos:
+
+	./<archivo.formato>
+
+Para ubicarse en la carpeta home:
+
+	cd -
 
 Muestra la ruta del directorio actual:
 	pwd 
 
 Crea un nuevo directorio:
 	mkdir <nombre del directorio>
+
+Crea un archivo vacío:
+	touch <nombre del archivo>
+
+Muestra el contenido de un archivo:
+	cat <archivo>
 
 Elimina archivos:
 	rm <nombre del archivo>
@@ -26,12 +59,6 @@ Copia archivos o directorios:
 
 Mueve o renombra archivos o directorios:
 	mv <archivo.txt> </ruta/destino> 
-
-Crea un archivo vacío:
-	touch <nombre del archivo>
-
-Muestra el contenido de un archivo:
-	cat <archivo>
 
 Muestra los procesos en ejecución y su uso de recursos en tiempo real:
 	top

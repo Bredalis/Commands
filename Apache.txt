@@ -4,11 +4,10 @@ Pasos para cambiar la ubicacion de ejecucion del servidor
 
 
 1. Entrar a C:/xampp/htdocs/apache/conf/httpd.conf
-2. En ese archivo cambia DocumentRoot a la nueva ruta de ejecucion
-3. Cambia <Directory> a la misma ruta que pusiste en DocumentRoot
-4. Guarda el archivo
-5. Reinicia Apache
-6. Accede a http://localhost/Carpeta/Archivos.Extension en tu navegador
+2. En ese archivo cambia DocumentRoot y <Directory> a la nueva ruta de ejecucion
+3. Guarda el archivo
+4. Reinicia Apache
+5. Accede a http://localhost/Carpeta/Archivos.Extension en tu navegador
 
 
 Pasos para ejecutar Apache en una pagina web
