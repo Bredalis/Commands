@@ -215,7 +215,7 @@ CMD: Para entrar en otro Simbolo del Sistema (cmd)
 
 	NombreDelComando /?
 
-more: Para leer archivos largos poco a poco
+More: Para leer archivos largos poco a poco
 
 	more Archivo.txt
 
@@ -229,6 +229,10 @@ more: Para leer archivos largos poco a poco
 	Para borrar cualquier archivo que tenga hola y cualquier palabra despues, 
 	sin importar su extension: del hola????.*
 
-vol: Para ver el volumen del disco duro y numero de serie
+Vol: Para ver el volumen del disco duro y numero de serie
 
 	vol
+
+Doskey: Para crear alias
+
+	doskey nombreAlias=comando

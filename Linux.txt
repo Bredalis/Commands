@@ -51,8 +51,11 @@ Muestra el contenido de un archivo:
 Elimina archivos:
 	rm <nombre del archivo>
 
-Elimina directorios:
+Elimina directorios vacios:
 	rmdir <nombre del directorio>
+
+Elimina directorios:
+	rm -rf <nombre del directorio>
 
 Copia archivos o directorios:
 	cp <nombre del archivo> <ruta para alojarlo>
@@ -95,3 +98,15 @@ Muestra los procesos en ejecución:
 
 Envía señales a procesos para terminarlos:
 	kill PID
+
+Para ver el historial:
+	history
+
+Para saber donde esta un comando:
+	which <comando>
+
+Para editar archivos:
+	nano <nombre del archivo>
+
+Crear alias:
+	alias <nombre de la variable>='comando a ejecutar'
