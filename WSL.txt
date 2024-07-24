@@ -1,0 +1,37 @@
+
+
+Comandos de WSL:
+
+
+Para exportar distros de Linux:
+	wsl --export <distro> <nombre del archivo que guardara la distro>.tar
+
+Para importar distros en otra pc:
+	wsl --import <nombre para guardar la distro> <ruta para guardar los archivos> .\<nombre del archivo>.tar
+
+Para ver la lista de nuestras distro:
+	wsl --list
+
+Para eliminar distros:
+	wsl --unregister <nombre de la distro>
+
+Para ver las distros instaladas y su version:
+    wsl --list --verbose
+
+Para establecer la version de wsl:
+    wsl --set-version <nombre de la distro> <numero de version>
+
+Para volver una distro como predeterminada:
+    wsl --set-default <nombre de la distro>
+    
+Para volver una version de wsl predeterminada:
+    wsl --set-default-version <numero de version de wsl>
+    
+Para actualizar wsl:
+    wsl --update
+
+Ver el estado de wsl:
+    wsl --status
+
+Para ver la version:
+    wsl --version

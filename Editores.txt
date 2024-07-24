@@ -89,24 +89,122 @@ Google COLAB
 
 
 Importar libreria de google colab:
-
 	from google.colab import files
 
 Seleccionar archivos para cargar:
-
 	uploaded = files.upload()
 
 Descargar arhivos:
-	
 	files.download("Nombre del archivo")
 
 Clonar los directorios de GitHub:
 	!git clone repositorio_url.git
 
 Visualizar datos graficos:
-
-	files.view('imagen.jpg')
+	files.view("imagen.jpg")
 
 Trabajar con html:
-
 	%%html
+
+
+Vim
+
+
+Instalar Vim en Linux:
+	sudo apt install vim
+
+Abrir Vim:
+	vim
+
+Salir de Vim:
+	:q
+
+Crear o abrir archivo:
+	vim <archivo>
+
+Insertar datos:
+	i
+
+Guardar archivos:
+	:w
+
+Solo abrir un archivo:
+	:edit <ruta>
+
+Salir sin guardar cambios:
+	:q!
+
+Guardar los cambios y salir:
+	:wq
+	:x
+	ZZ
+
+Subir una linea en el archivo:
+	j
+
+Bajar una linea:
+	k
+
+Ir hacia la derecha:
+	l
+
+Ir hacia la izquierda:
+	h
+
+Mostrar los numeros de las lineas:
+	:set number
+
+Ir al inicio de la linea:
+	0
+
+Ir al final de la linea:
+	Shift + $
+
+Ir al final de la palabra:
+	w
+
+Ir al final de la palabra:
+	b
+
+Ir a la linea deseada:
+	<pasos para ir a la linea> <letra>
+	<numero de linea> G
+
+Ir al caracter mas cercano:
+	f <caracter>
+
+Ir a la primera linea:
+	gg
+
+Ir a la ultima linea:
+	GG
+
+Crear una linea nueva, para escribir abajo de esta:
+	o
+
+Insertar hacia arriba:
+	O
+
+Reemplazar un caracter:
+	r <nuevo caracter>
+
+Cortar una linea:
+	dd
+
+Pegar una linea:
+	p
+
+Copiar una linea:
+	yy
+
+Buscar una palabra:
+	/<palabra>
+
+Pasar de palabra encontrada:
+	n
+
+Deshacer cambios:
+	u
+
+Rehacer cambios:
+	Ctrl + r
