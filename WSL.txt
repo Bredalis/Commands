@@ -3,6 +3,12 @@
 Comandos de WSL:
 
 
+Para mostrar las distros de Linux:
+    wsl --install
+
+Para instalar una distro especifica:
+    wsl --install -d <distro>
+
 Para exportar distros de Linux:
 	wsl --export <distro> <nombre del archivo que guardara la distro>.tar
 

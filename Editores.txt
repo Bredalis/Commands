@@ -140,10 +140,10 @@ Guardar los cambios y salir:
 	ZZ
 
 Subir una linea en el archivo:
-	j
+	k
 
 Bajar una linea:
-	k
+	j
 
 Ir hacia la derecha:
 	l
@@ -163,7 +163,7 @@ Ir al final de la linea:
 Ir al final de la palabra:
 	w
 
-Ir al final de la palabra:
+Ir al inicio de la palabra:
 	b
 
 Ir a la linea deseada:
