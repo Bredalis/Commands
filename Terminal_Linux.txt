@@ -170,3 +170,6 @@ Para reproducir archivo de sonido:
 
 Para ver la variables de entorno:
     printenv
+
+Para ver los directorios y archivos como un arbol:
+	tree

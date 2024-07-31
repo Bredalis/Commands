@@ -41,3 +41,6 @@ Ver el estado de wsl:
 
 Para ver la version:
     wsl --version
+
+Para ejecutar bash en Windows:
+    wsl bash -c <ruta del script>
