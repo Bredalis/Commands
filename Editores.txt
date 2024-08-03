@@ -167,7 +167,6 @@ Ir al inicio de la palabra:
 	b
 
 Ir a la linea deseada:
-	<pasos para ir a la linea> <letra>
 	<numero de linea> G
 
 Ir al caracter mas cercano:

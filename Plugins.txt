@@ -1,6 +1,6 @@
 
 
-Comandos comunes:
+Atajos comunes:
 
 
 Emmet:
@@ -22,7 +22,7 @@ div>p>span: para una estructura anidada
 
 ul.nav>li.item$*5>a: para un menú de navegación simple
 
-form#myForm>input+input+input+button: para un formulario simple
+form#myForm>input*4+button: para un formulario simple
 
 nav>ul>li*5>a para un menú de navegación
 

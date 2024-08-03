@@ -41,9 +41,6 @@ Muestra la ruta del directorio actual:
 Crea un nuevo directorio:
 	mkdir <nombre del directorio>
 
-Crea un archivo vacío:
-	touch <nombre del archivo>
-
 Muestra el contenido de un archivo:
 	cat <archivo>
 

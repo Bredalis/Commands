@@ -41,7 +41,7 @@ git reset HEAD <archivo>: Quita un archivo del área de preparación
 
 git reset --hard HEAD: Desecha todos los cambios locales y vuelve al estado del último commit
 
-git restore <archivo>: Para deshacer los cambios hechos en ese archivo
+git restore --staged <archivo>: Para deshacer los cambios hechos en ese archivo
 
 git rm <archivo>: Elimina un archivo del repositorio
 
@@ -56,8 +56,6 @@ git fetch <repositorio remoto>: Descarga cambios del repositorio remoto sin fusi
 git config --global user.email <correo>: para configurar tu correro electronico
  
 git config --global user.name <Tu nombre>: para configurar tu nombre como usuario
-
-git checkout -b <nombre-de-la-rama>: Crea una nueva rama y cambia a ella en un solo paso
 
 git remote add <nombre> <url>: Agrega un nuevo repositorio remoto con un nombre especificado
 
