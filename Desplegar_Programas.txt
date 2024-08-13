@@ -1,0 +1,13 @@
+
+
+Desplegar programas con Flask:
+
+
+1. Guarda todo el código (excluyendo las librerías) en una función que retorne la variable app 
+y añade este código al final:
+	
+	if __name__ == "__main__":
+	    app = nombre_funcion()
+	    app.run()
+
+2. Crea en el proyecto un archivo .txt llamado requirements, donde pondrás las librerías a instalar
