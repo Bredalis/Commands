@@ -236,3 +236,11 @@ Vol: Para ver el volumen del disco duro y numero de serie
 Doskey: Para crear alias
 
 	doskey nombreAlias=comando
+
+F7: Para ver el historial del cmd
+
+	F7
+
+Netstat: Para ver los puertos activos de Flask
+
+	netstat -ano | findstr :5000
