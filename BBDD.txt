@@ -1,214 +1,233 @@
 
 
-Definicion de algunos comandos
+Definición de algunos comandos
 
 
-TRUNCATE: se utiliza para eliminar todos los registros de una tabla
+TRUNCATE: Se utiliza para eliminar todos los registros de una tabla.
 
 
-GRANT: se utiliza para otorgar permisos o derechos de acceso a objetos de la base de datos, 
-como tablas, vistas o procedimientos almacenados, a usuarios o roles específicos
+GRANT: Se utiliza para otorgar permisos o derechos de acceso a objetos de la base de datos, como 
+tablas, vistas o procedimientos almacenados, a usuarios o roles específicos.
 
 
-REVOKE: se utiliza para retirar los permisos previamente otorgados mediante la instrucción "GRANT". 
-Permite restringir o eliminar los derechos de acceso a objetos de la base de datos de usuarios o roles específicos
+REVOKE: Se utiliza para retirar los permisos previamente otorgados mediante la instrucción "GRANT". 
+Permite restringir o eliminar los derechos de acceso a objetos de la base de datos de usuarios o roles específicos.
 
 
-ROLLBACK: se utiliza en el contexto de transacciones. Cuando se inicia una transacción y ocurre un error o se desea 
-deshacer una serie de cambios realizados en la base de datos durante la transacción, se puede utilizar "ROLLBACK" para 
-restaurar la base de datos a su estado anterior a la transacción
+ROLLBACK: Se utiliza en el contexto de transacciones. Cuando se inicia una transacción y ocurre un error 
+o se desea deshacer una serie de cambios realizados en la base de datos durante la transacción, se puede 
+utilizar "ROLLBACK" para restaurar la base de datos a su estado anterior a la transacción.
 
 
-SAVEPOINT: se utiliza para crear un punto de guardado dentro de una transacción. Esto permite deshacer solo una parte 
-de una transacción en lugar de revertir toda la transacción. Los puntos de guardado se utilizan para dividir una transacción 
-en partes más pequeñas y manejar errores de manera más granular
+SAVEPOINT: Se utiliza para crear un punto de guardado dentro de una transacción. Esto permite deshacer solo 
+una parte de una transacción en lugar de revertir toda la transacción. Los puntos de guardado se utilizan para 
+dividir una transacción en partes más pequeñas y manejar errores de manera más granular.
 
 
-HAVING: es una cláusula que se utiliza en SQL con la instrucción "SELECT" cuando se realizan consultas que involucran agregación, 
+HAVING: Es una cláusula que se utiliza en SQL con la instrucción "SELECT" cuando se realizan consultas que involucran agregación, 
 como "GROUP BY". Permite filtrar los resultados de la consulta después de aplicar funciones de agregación como SUM, COUNT o AVG. 
 La cláusula "HAVING" se utiliza para especificar una condición que debe cumplirse para que una fila se incluya en los resultados 
-finales después de la agrupación y agregación
+finales después de la agrupación y agregación.
 
 
-Comandos de SQLITE3 y SQL
+Comandos de SQLite3 y SQL
 
 
-Los 4 mas importantes comandos de SQL
+Los 4 más importantes comandos de SQL
 
-DDL: crear y modificar la estructura de la base de datos
+DDL: Crear y modificar la estructura de la base de datos
 
-Comandos: CREATE, ALTER, DROP, TRUNCATE
+Comandos: CREATE, ALTER, DROP, TRUNCATE.
 
-DML: selecciona regristros de una base de datos, para insertar nuevos regristros, actualizar, borrar, para hacer consultas de 
-seleccion y de accion
+DML: Selecciona registros de una base de datos, para insertar nuevos registros, actualizar, borrar, para hacer 
+consultas de selección y de acción.
 
-Comandos: SELECT, INSERT, UPDATE, DELETE
+Comandos: SELECT, INSERT, UPDATE, DELETE.
 
-DCL: Proporciona seguridad a la informacion en la base de datos
+DCL: Proporciona seguridad a la información en la base de datos.
 
-Comandos: GRANT, REVOKE
+Comandos: GRANT, REVOKE.
 
-TCL: Gestiona los cambios  
+TCL: Gestiona los cambios.
 
-Comandos: COMMIT, ROLLBACK, SAVEPOINT
+Comandos: COMMIT, ROLLBACK, SAVEPOINT.
 
-Clausulas: FROM, WHERE, GROUP BY, HAVING, ORDER BY, JOIN
-
-
-Pasos para trabajar en sqlite3
+Cláusulas: FROM, WHERE, GROUP BY, HAVING, ORDER BY, JOIN.
 
 
-Elaboracion de tablas
+Pasos para trabajar en SQLite3
 
 
-Para crear tablas y crear un id unico y autoincrementable:
+Elaboración de tablas
 
-	CREATE TABLE Tabla(ID INTEGER PRIMARY KEY AUTOINCREMENT, Columna tipo, Columna tipo);
 
-	CREATE TABLE nueva_tabla AS SELECT col1, col2, col4 FROM tabla_original;
+Para crear tablas y crear un id único y autoincrementable:
+  
+  CREATE TABLE Tabla(ID INTEGER PRIMARY KEY AUTOINCREMENT, Columna tipo, Columna tipo);
+
+Para crear una nueva tabla basada en columnas seleccionadas de otra tabla:
+  
+  CREATE TABLE nueva_tabla AS SELECT col1, col2, col4 FROM tabla_original;
 
 Para insertar datos nuevos a la tabla:
-
-	INSERT INTO Tabla(Columnas) VALUES(Valores);
+  
+  INSERT INTO Tabla(Columnas) VALUES(Valores);
 
 Para insertar nuevas columnas:
 
-	ALTER TABLE Tabla ADD Columna Tipo;
+  ALTER TABLE Tabla ADD COLUMN Columna Tipo;
+
 
 Para seleccionar contenido:
 
-	SELECT * FROM Tabla;
-	
-	SELECT * FROM Tabla WHERE Columna = Valor;
-	
-	SELECT * FROM Tabla Columna LIMIT Valor;
-	
-	SELECT * FROM Tabla ORDER BY Columna ASC;
-	
-	SELECT * FROM Tabla ORDER BY Columna DESC;
-	
-	SELECT Columna FROM Tabla;
+  SELECT * FROM Tabla;
+
+  SELECT * FROM Tabla WHERE Columna = Valor;
+
+  SELECT * FROM Tabla Columna LIMIT Valor;
+
+  SELECT * FROM Tabla ORDER BY Columna ASC;
+
+  SELECT * FROM Tabla ORDER BY Columna DESC;
+
+  SELECT Columna FROM Tabla;
+
 
 Para actualizar:
 
-	UPDATE Tabla SET Columna = "Valor" WHERE id = ubicacion;
+  UPDATE Tabla SET Columna = "Valor" WHERE id = ubicacion;
 
 Para borrar:
+  
+  DELETE FROM Tabla WHERE id = ubicacion;
 
-	DELETE FROM Tabla WHERE id = ubicacion;
-	
-Para borrar BBDD:
+Para borrar bases de datos:
+  
+  DROP DATABASES Nombre_BBDD;
 
-	DROP DATABASES Nombre_BBDD;
 
-Funciones:
+Funciones
 
-	SELECT MAX(Columna) AS MAYOR FROM Tabla;
-	
-	SELECT MIN(Columna) AS MENOR FROM Tabla;
 
-	SELECT COUNT(Columna) FROM Tabla;
+  SELECT MAX(Columna) AS MAYOR FROM Tabla;
 
-	SELECT SUM(Columna) FROM Tabla;
+  SELECT MIN(Columna) AS MENOR FROM Tabla;
 
-	SELECT AVG(Columna) FROM Tabla;
+  SELECT COUNT(Columna) FROM Tabla;
 
-FOREIGN KEY:
+  SELECT SUM(Columna) FROM Tabla;
 
-	CREATE TABLE Tabla("ID" INTEGER PRIMARY KEY, "Columna2" TEXT, "columna" INTEGER, FOREIGN KEY ("columna2") REFERENCES Tabla_2("ID"));
+  SELECT AVG(Columna) FROM Tabla;
 
-Crear FOREIGN KEY:
 
-	ALTER TABLE Tabla ADD FOREIGN KEY(id de esta tabla) REFERENCES Tabla_2(id de esta tabla)
+Foreign Key
 
-Borrar FOREIGN KEY:
 
-	ALTER TABLE Tabla DROP FOREIGN KEY(nombre_clave_externa);
+Para crear una tabla con una clave foránea:
+
+  CREATE TABLE Tabla("ID" INTEGER PRIMARY KEY, "Columna2" TEXT, "columna" INTEGER, FOREIGN KEY ("columna2") REFERENCES Tabla_2("ID"));
+
+Para agregar una clave foránea a una tabla existente:
+
+  ALTER TABLE Tabla ADD FOREIGN KEY(id de esta tabla) REFERENCES Tabla_2(id de esta tabla);
+
+Para borrar una clave foránea:
+
+  ALTER TABLE Tabla DROP FOREIGN KEY(nombre_clave_externa);
+
 
 Renombrar nombre de la tabla:
 
-	ALTER TABLE Tabla RENAME TO Nombre Nuevo;
+  ALTER TABLE Tabla RENAME TO Nombre_Nuevo;
 
 Agrupar elementos:
 
-	SELECT COUNT(Columna), Columna FROM Tabla GROUP BY Columna;
+  SELECT COUNT(Columna), Columna FROM Tabla GROUP BY Columna;
+
+
+Consultas de unión
+
 
 Devuelve solo las filas que tienen coincidencias en ambas tablas basadas en la condición de unión especificada:
-	
-	SELECT * FROM Tabla_1 INNER JOIN Tabla_2 ON Tabla_1.columna = Tabla_2.columna;
+
+  SELECT * FROM Tabla_1 INNER JOIN Tabla_2 ON Tabla_1.columna = Tabla_2.columna;
 
 Devuelve todas las filas de la tabla izquierda (Tabla_1) y las filas coincidentes de la tabla derecha (Tabla_2):
 
-	SELECT * FROM Tabla_1 LEFT JOIN Tabla_2 ON Tabla_1.columna = Tabla_2.columna;
+  SELECT * FROM Tabla_1 LEFT JOIN Tabla_2 ON Tabla_1.columna = Tabla_2.columna;
 
 Devuelve todas las filas de la tabla derecha (Tabla_2) y las filas coincidentes de la tabla izquierda (Tabla_1):
 
-	SELECT * FROM Tabla_1 RIGHT JOIN Tabla_2 ON Tabla_1.columna = Tabla_2.columna;
+  SELECT * FROM Tabla_1 RIGHT JOIN Tabla_2 ON Tabla_1.columna = Tabla_2.columna;
 
 Devuelve todas las filas de ambas tablas, combinando las filas cuando hay una coincidencia:
 
-	SELECT * FROM Tabla_1 FULL JOIN Tabla_2 ON Tabla_1.columna = Tabla_2.columna;
+  SELECT * FROM Tabla_1 FULL JOIN Tabla_2 ON Tabla_1.columna = Tabla_2.columna;
 
 Devuelve el producto cartesiano de ambas tablas, es decir, cada fila de la primera tabla se combina con cada fila de la segunda tabla:
 
-	SELECT * FROM Tabla_1 CROSS JOIN Tabla_2;
+  SELECT * FROM Tabla_1 CROSS JOIN Tabla_2;
 
 Borrar tablas:
 
-	DROP TABLE Tabla;
+  DROP TABLE Tabla;
 
-Operadores de Comparacion:
-	
-	= : Igual
+Operadores de comparación:
 
-	<> : Distinto
+  = : Igual
 
-	> : Mayor
+  <> : Distinto
 
-	< : Menor
+  > : Mayor
 
-	>= : Mayor o Igual
+  < : Menor
 
-	<= : Menor o Igual
+  >= : Mayor o Igual
 
-Operadores Logicos (AND, OR, NOT):
+  <= : Menor o Igual
 
-	SELECT * FROM Tabla WHERE id = Valor AND Columna = Valor;
+Operadores lógicos (AND, OR, NOT):
 
-	SELECT * FROM Tabla WHERE id = Valor OR Columna = Valor;
+  SELECT * FROM Tabla WHERE id = Valor AND Columna = Valor;
 
-	SELECT * FROM Tabla WHERE NOT Columna = Valor;
+  SELECT * FROM Tabla WHERE id = Valor OR Columna = Valor;
+
+  SELECT * FROM Tabla WHERE NOT Columna = Valor;
 
 Operador BETWEEN:
 
-	SELECT * FROM Tabla WHERE Columna BETWEEN Valor AND Valor;
+  SELECT * FROM Tabla WHERE Columna BETWEEN Valor AND Valor;
 
 Operador IN:
 
-	SELECT * FROM Tabla WHERE Columna IN(Valor);
+  SELECT * FROM Tabla WHERE Columna IN(Valor);
 
-	//Forma contraria
+  // Forma contraria
 
-	SELECT * FROM Tabla WHERE Columna NOT IN(Valor);
+  SELECT * FROM Tabla WHERE Columna NOT IN(Valor);
 
-Operador Like:
+Operador LIKE:
 
-	//Letras alante
+Letras al inicio:
+  
+  SELECT * FROM Tabla WHERE Columna LIKE "Letra%";
 
-	SELECT * FROM Tabla WHERE Columna LIKE "Letra%";
+Letras al final:
 
-	//Letras atras
+  SELECT * FROM Tabla WHERE Columna LIKE "%Letra";
 
-	SELECT * FROM Tabla WHERE Columna Like "%Letra";
+Letras en medio:
 
-	//Letras en medio
+  SELECT * FROM Tabla WHERE Columna LIKE "%Letra%";
 
-	SELECT * FROM Tabla WHERE Columna Like "%Letra%";
+
+Mostrar datos
+
 
 Para mostrar todos los datos incluidos los duplicados:
-	
-	SELECT ALL Columna FROM tabla;
+
+  SELECT ALL Columna FROM Tabla;
 
 Para mostrar los datos sin duplicaciones:
 
-	SELECT DISTINCT columna FROM tabla;
+  SELECT DISTINCT Columna FROM Tabla;
