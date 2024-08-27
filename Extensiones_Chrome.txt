@@ -1,0 +1,106 @@
+
+
+Descripción y pasos para usar las herramientas y extensiones de Chrome:
+
+
+Simulador Móvil (Responsive Design Mode)
+
+
+Descripción:  
+
+El Simulador Móvil es una herramienta integrada en Chrome DevTools que te permite ver cómo se verá tu sitio web 
+en diferentes dispositivos móviles y tamaños de pantalla. Es ideal para probar el diseño responsive de tu página.
+
+Pasos para usar:
+
+1. Abre el sitio web que deseas probar.
+
+2. Haz clic derecho en cualquier parte de la página y selecciona "Inspeccionar" o presiona `Ctrl + Shift + I` 
+(Windows/Linux) o `Cmd + Option + I` (Mac).
+
+3. En la barra superior de DevTools, haz clic en el ícono de "Toggle device toolbar" (parece un teléfono y 
+una tablet).
+
+4. Selecciona un dispositivo de la lista desplegable o personaliza el tamaño de la pantalla manualmente.
+
+5. Prueba la interacción con el sitio web como si estuvieras usando un dispositivo móvil.
+
+
+JSON Formatter
+
+
+Descripción:  
+
+JSON Formatter es una extensión de Chrome que te permite ver archivos JSON de manera clara y estructurada en el 
+navegador, haciendo más fácil su lectura y depuración.
+
+Pasos para usar:
+
+1. Instala la extensión "JSON Formatter" desde la Chrome Web Store.
+
+2. Una vez instalada, abre cualquier archivo JSON en el navegador.
+
+3. La extensión automáticamente formateará el JSON para que sea fácil de leer, mostrando la estructura con sangría y 
+resaltado de sintaxis.
+
+4. Puedes contraer o expandir los nodos del JSON para explorar la estructura.
+
+
+Wappalyzer
+
+
+Descripción:  
+
+Wappalyzer es una extensión que te permite identificar las tecnologías que un sitio web está utilizando. Puede detectar 
+frameworks, CMS, herramientas de análisis, lenguajes de programación, entre otros.
+
+Pasos para usar:
+
+1. Instala la extensión "Wappalyzer" desde la Chrome Web Store.
+
+2. Abre el sitio web que deseas analizar.
+
+3. Haz clic en el ícono de Wappalyzer en la barra de herramientas de Chrome.
+
+4. Se abrirá un panel mostrando todas las tecnologías detectadas en el sitio web.
+
+
+Web Vitals
+
+
+Descripción:  
+
+Web Vitals es una extensión que proporciona información en tiempo real sobre las métricas de rendimiento clave (Core Web 
+Vitals) de una página web, como LCP (Largest Contentful Paint), FID (First Input Delay) y CLS (Cumulative Layout Shift).
+
+Pasos para usar:
+
+1. Instala la extensión "Web Vitals" desde la Chrome Web Store.
+
+2. Abre el sitio web que deseas medir.
+
+3. La extensión mostrará automáticamente las métricas clave en un pequeño panel sobre la página.
+
+4. Analiza las métricas para identificar posibles problemas de rendimiento y mejora de la experiencia de usuario.
+
+
+VisBug
+
+
+Descripción:  
+
+VisBug es una extensión que te permite editar visualmente cualquier página web directamente en el navegador. Puedes modificar 
+el diseño, mover elementos, cambiar colores y mucho más, todo sin necesidad de acceder al código fuente.
+
+Pasos para usar:
+
+1. Instala la extensión "VisBug" desde la Chrome Web Store.
+
+2. Abre el sitio web que deseas modificar.
+
+3. Haz clic en el ícono de VisBug en la barra de herramientas de Chrome.
+
+4. Usa las herramientas disponibles para seleccionar, mover, redimensionar, cambiar colores, modificar texto, y otros 
+aspectos del diseño.
+
+5. Los cambios se aplican en tiempo real, permitiéndote experimentar con el diseño de la página directamente en el navegador.
