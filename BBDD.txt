@@ -77,7 +77,6 @@ Para insertar nuevas columnas:
 
   ALTER TABLE Tabla ADD COLUMN Columna Tipo;
 
-
 Para seleccionar contenido:
 
   SELECT * FROM Tabla;
@@ -91,7 +90,6 @@ Para seleccionar contenido:
   SELECT * FROM Tabla ORDER BY Columna DESC;
 
   SELECT Columna FROM Tabla;
-
 
 Para actualizar:
 
@@ -134,7 +132,6 @@ Para agregar una clave foránea a una tabla existente:
 Para borrar una clave foránea:
 
   ALTER TABLE Tabla DROP FOREIGN KEY(nombre_clave_externa);
-
 
 Renombrar nombre de la tabla:
 

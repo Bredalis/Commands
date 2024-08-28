@@ -1,246 +1,232 @@
 
 
-Comandos basicos
+Comandos básicos
 
 
-Dir: Muestra el contenido del directorio actual
+Dir: Muestra el contenido del directorio actual.
 
-Cd: Cambia el directorio actual a la ubicación especificada 
-	o volver a la carpeta anterior
+Cd: Cambia el directorio actual a la ubicación especificada o vuelve a la carpeta anterior.
 
-	cd ..
-	cd NombreDelArchivo
+  cd ..
+  cd NombreDelDirectorio
 
 Crear un nuevo archivo:
 
-	echo. > nombre_archivo.txt
+  echo. > nombre_archivo.txt
 
 Insertar datos:
 
-	echo Hola >> nombre_archivo.txt
+  echo Hola >> nombre_archivo.txt
 
-Mkdir o md: Crea un nuevo directorio
+Mkdir o md: Crea un nuevo directorio.
 
-	mkdir NombreDelDirectorio
-	md NombreDelDirectorio
+  mkdir NombreDelDirectorio
+  md NombreDelDirectorio
 
-Rmdir o rd: Elimina un directorio vacío
+Rmdir o rd: Elimina un directorio vacío.
 
-	rmdir NombreDelDirectorio
-	rd NombreDelDirectorio
+  rmdir NombreDelDirectorio
+  rd NombreDelDirectorio
 
-Copy: Copia archivos 
+Copy: Copia archivos.
 
-	copy NombreDelArchivo destino + NuevoNombre
+  copy NombreDelArchivo RutaDestino/NuevoNombre
 
-Xcopy: Copia directorios 
+Xcopy: Copia directorios.
 
-	xcopy NombreDelDirectorio destino
+  xcopy NombreDelDirectorio destino
 
-Move: Mueve archivos o directorios
+Move: Mueve archivos o directorios.
 
-	move NombreDelArchivo destino
+  move NombreDelArchivo destino
 
-Ren o Rename: Cambia el nombre de un archivo o directorio
+Ren o Rename: Cambia el nombre de un archivo o directorio.
 
-	ren NombreAntiguo NombreNuevo
+  ren NombreAntiguo NombreNuevo
+  rename "NombreDelDirectorio" "NombreNuevoDelDirectorio"
 
-	rename "NombreDelDirectorio" "NombreNuevoDelDirectorio"
+Del: Elimina un archivo.
 
-Del: Elimina un archivo
+  del NombreDelArchivo
 
-	del NombreDelArchivo
+Tasklist: Muestra una lista de procesos en ejecución.
 
-Tasklist: Muestra una lista de procesos en ejecución
+  tasklist
 
-	tasklist
+Taskkill: Termina un proceso en ejecución por su nombre o número de proceso.
 
-Taskkill: Termina un proceso en ejecución por su nombre o número de proceso
+  taskkill /F /IM NombreDelProceso.exe
 
-	taskkill /F /IM NombreDelProceso.exe
+Ipconfig: Muestra información de configuración de red, incluyendo direcciones IP.
 
-Ipconfig: Muestra información de configuración de red, incluyendo direcciones IP
+  ipconfig
 
-	ipconfig
+Ping: Envía paquetes ICMP a una dirección IP para verificar la conectividad de red.
 
-Ping: Envía paquetes ICMP a una dirección IP para verificar la conectividad de red
+  ping DirecciónIP
 
-	ping DirecciónIP
+Systeminfo: Muestra información detallada del sistema.
 
-Systeminfo: Muestra información detallada del sistema
+  systeminfo
 
-	systeminfo
+Control: Abre el Panel de control.
 
-Control: Abre el Panel de control
+  control
 
-	control
+Shutdown: Apaga o reinicia la computadora.
 
-Shutdown: Apaga o reinicia la computadora
+  shutdown /s /t 0   (Apagar)
+  shutdown /r /t 0   (Reiniciar)
 
-	shutdown /s /t 0   # Apagar
-	shutdown /r /t 0   # Reiniciar
+Sfc: Escanea y repara archivos dañados del sistema.
 
-Sfc: Escanea y repara archivos dañados del sistema
+  sfc /scannow
 
-	sfc /scannow
+Chkdsk: Verifica y repara errores en un disco duro.
 
-Chkdsk: Verifica y repara errores en un disco duro
+  chkdsk /f C:   (Donde "C" es la unidad a verificar)
 
-	chkdsk /f C:   # Donde "C" es la unidad a verificar
+Regedit: Abre el Editor del Registro de Windows.
 
-Regedit: Abre el Editor del Registro de Windows
+  regedit
 
-	regedit
+Cls: Limpia la terminal.
 
-Cls: para limpiar la terminal
+  cls
 
-	cls
+Start: Abre otra terminal o abre un software.
 
-Start: para abrir otra terminal o abrir un software
+  start
+  start nombre_del_programa
 
-	start
+Comando /?: Muestra la ayuda de dicho comando.
 
-	start nombre del programa
+  color /?
 
-Comando /?: para decir la ayuda de dicho comando
-	
-	color /?
+Title: Cambia el título de la ventana de la terminal.
 
-Title: para cambiar el titulo
+  title "Título"
 
-	title "Titulo"
+Tree: Muestra la estructura de las carpetas de la PC.
 
-Tree: muestra la estructura de las carpetas de la pc
+  tree
 
-	tree
+Echo: Imprime texto en pantalla.
 
-Echo: se usa para imprimir texto en pantalla
+  echo "Algún texto"
 
-	echo "Algun texto"
+Type: Lee un archivo de texto.
 
-Type: para leer un archivo de texto
+  type Texto.txt
 
-	type Texto.txt
+Attrib: Modifica los atributos de los directorios.
 
-Attrib: se usa para modificar los atributos de los directorios
+  Lectura:
+    attrib +R texto.txt
+    attrib -R texto.txt
 
-	Lectura
+  Ocultar:
+    attrib +H texto.txt
+    attrib +H texto.txt /S
+    attrib -H texto.txt
 
-	attrib +R texto.txt 
-	attrib -R texto.txt 
+Date: Muestra la fecha.
 
-	Ocultar
+  date
+  date /t
 
-	attrib +H texto.txt
-	attrib +H texto.txt /S
-	attrib -H texto.txt
+Time: Muestra la hora.
 
-Date: muestra la fecha
+  time
+  time /t
 
-	date
-	date /t
+Ver: Muestra la versión del sistema operativo.
 
-Time: comando para la hora
+  ver
 
-	time
-	time /t
+Whoami: Muestra el usuario que está en la terminal.
 
-Ver: para saber las versiones de la pc
+  whoami
 
-	ver
+Tracert: Muestra la ruta por la que pasa el dominio.
 
-Whoami: para ver que usuario esta en la terminal
+  tracert NombreDelDominio
 
-	whoami
+Netstat: Muestra los estados de la red.
 
-Tracert: se usa para saber la ruta por la que pasa el dominio
+  netstat
 
-	tracert NombreDelDominio
+Netsh: Muestra las contraseñas Wi-Fi.
 
-Netstat: para ver los estados de la red
+  netsh wlan show profile
+  netsh wlan show profile "NombreDeLaRed" key=clear
 
-	netstat
+Driverquery: Muestra todos los controladores que tiene la PC.
 
-Netsh: para ver contraseñas wifi
+  driverquery
 
-	netsh wlan show profile
-	netsh wlan show profile "NombreDeLaRed" key=clear
+Assoc: Muestra o modifica las asociaciones de extensiones de archivo.
 
-Driverquery: para ver todos los controladores que tiene la pc
+  assoc
 
-	driverquery
+Cipher: Muestra o modifica el cifrado de archivos en unidades NTFS.
 
-Assoc: Muestra o modifica las asociaciones de extensiones de archivo
-	
-	assoc
+  cipher
 
-Cipher: Muestra o modifica el cifrado de archivos en unidades NTFS
-	
-	cipher
+Diskpart: Abre la utilidad de línea de comandos de DiskPart para administrar discos y volúmenes.
 
+  diskpart
 
-Diskpart: Abre la utilidad de línea de comandos de DiskPart para administrar discos y volúmenes
+Dism: Herramienta de mantenimiento y preparación de imágenes de implementación.
 
-	diskpart
+  dism
 
-Dism: Herramienta de mantenimiento y preparación de imágenes de implementación
+Fc: Compara dos archivos o conjuntos de archivos y muestra las diferencias entre ellos.
 
-	dism
+  fc archivo1.txt archivo2.txt
 
-Fc: Compara dos archivos o conjuntos de archivos y muestra las diferencias entre ellos
+Find: Busca cadenas de texto en archivos.
 
-	fc archivo1.txt archivo2.txt
+  find "texto" archivo.txt
 
-Find: Busca cadenas de texto en archivos
+Format: Formatea una unidad de disco.
 
-	find "texto" archivo.txt
+  format C:
 
-Format: Formatea una unidad de disco
+Ftp: Abre la interfaz de línea de comandos de FTP para transferir archivos.
 
-	format C:
+  ftp
 
-Ftp: Abre la interfaz de línea de comandos de FTP para transferir archivos
+Code: Abre Visual Studio Code.
 
-	ftp
+  code .
 
-Code: Para abrir VSCode
+CMD: Entra en otro Símbolo del Sistema (cmd).
 
-	code .
+  cmd
 
-CMD: Para entrar en otro Simbolo del Sistema (cmd)
+More: Lee archivos largos poco a poco.
 
-	cmd
+  more Archivo.txt
 
-/?: Para mostrar la ayuda de un comando:
+\: Comodines
 
-	NombreDelComando /?
+  Para borrar cualquier archivo que tenga el nombre "hola", sin importar la extensión: del hola.*
+  Para borrar cualquier archivo .txt sin importar el nombre: del *.txt
+  Para borrar cualquier archivo que tenga "hola" y cualquier palabra después, sin importar su extensión: del hola????.*
 
-More: Para leer archivos largos poco a poco
+Vol: Muestra el volumen del disco duro y número de serie.
 
-	more Archivo.txt
+  vol
 
-*: Comodines
+Doskey: Crea alias.
 
-	Para borrar cualquier archivo que tenga 
-	el nombre hola, sin importar la extension: del hola.*
+  doskey nombreAlias=comando
 
-	Para borrar cualquier archivo .txt sin importar el nombre: del *.txt
+Tecla F7: Muestra el historial del cmd.
 
-	Para borrar cualquier archivo que tenga hola y cualquier palabra despues, 
-	sin importar su extension: del hola????.*
+  Tecla F7
 
-Vol: Para ver el volumen del disco duro y numero de serie
+Netstat: Muestra los puertos activos de Flask.
 
-	vol
-
-Doskey: Para crear alias
-
-	doskey nombreAlias=comando
-
-F7: Para ver el historial del cmd
-
-	F7
-
-Netstat: Para ver los puertos activos de Flask
-
-	netstat -ano | findstr :5000
+  netstat -ano | findstr :5000

@@ -1,0 +1,90 @@
+
+
+Comandos básicos y necesarios para Flask y SQLAlchemy
+
+
+Comandos Básicos de SQLAlchemy
+
+
+Instala SQLAlchemy como extensión de Flask:
+	- pip install flask-sqlalchemy
+
+Entrar al entorno de Python en la carpeta del programa:
+	- python
+	- from nombre_archivo import db
+
+Configura la base de datos SQLite:
+	- app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///ruta.db" 
+
+Inicializa la instancia de SQLAlchemy en la aplicación Flask:
+	- db = SQLAlchemy(app): 
+
+Crea todas las tablas definidas en los modelos:
+	- db.create_all(): 
+
+Añade un nuevo registro a la base de datos:
+	- db.session.add(objeto)
+
+Guarda los cambios realizados en la base de datos:
+	- db.session.commit() 
+
+Realiza una consulta para obtener todos los registros de una tabla:
+	- db.session.query(Modelo).all() 
+
+Elimina un registro de la base de datos:
+	- db.session.delete(objeto) 
+
+
+Migraciones con Flask-Migrate
+
+
+Instala Flask-Migrate para manejar migraciones:
+	- pip install flask-migrate: 
+
+Inicializa el repositorio de migraciones:
+	- flask db init 
+
+Crea una nueva migración:
+	- flask db migrate -m "mensaje" 
+
+Aplica la migración a la base de datos:
+	- flask db upgrade 
+
+Revierte la última migración aplicada:
+	- flask db downgrade 
+
+
+Comandos de Pruebas en Flask
+
+
+Instala pytest para realizar pruebas unitarias:
+	- pip install pytest
+
+Ejecuta pruebas y muestra la cobertura de código:
+	- pytest --cov = nombre_del_paquete 
+
+
+Optimización y Mejores Prácticas
+
+
+Filtra resultados según condiciones específicas:
+	- db.session.query(Modelo).filter_by(campo = valor)
+
+Ordena los resultados de la consulta en orden descendente:
+	- db.session.query(Modelo).order_by(Modelo.campo.desc())
+
+Agrupa los resultados según un campo específico:
+	- db.session.query(Modelo).group_by(Modelo.campo)
+
+
+Despliegue y Configuración de Producción
+
+
+Despliega la aplicación Flask en producción con Gunicorn:
+	- gunicorn -w 4 app:app
+
+Permite que la aplicación esté accesible desde cualquier dirección IP:
+	- flask run --host=0.0.0.0
+
+Instala el adaptador de PostgreSQL para Python, necesario para conectar Flask con PostgreSQL en producción:
+	- pip install psycopg2
