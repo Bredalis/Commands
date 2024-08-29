@@ -107,7 +107,7 @@ Trabajar con html:
 	%%html
 
 
-Vim
+Vim / NeoVim
 
 
 Instalar Vim en Linux:

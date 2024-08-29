@@ -7,11 +7,11 @@ Desplegar programas con Flask:
 (Si no entiendes mira la carpeta DesplegarApp que está en Backend/Flask) y añade este código al final:
 
 	if __name__ == "__main__":
-		app = nombre_función()
+		app = nombre_funcion()
 		app.run()
 
 2. Crea en el proyecto un archivo llamado requirements.txt, donde pondrás las librerías a instalar como:
-flask, python-dotenv, pymongo[srv] (si lo usas) y gunicorn
+flask, python-dotenv y pymongo[srv] (si usas Pymongo) y gunicorn (obligatoreamente)
 
 3. Si usas pymongo y tienes una clave de acceso, debes crear un archivo de entorno llamado .env y agregar
 la clave de acceso, ejemplo:
@@ -22,7 +22,7 @@ la clave de acceso, ejemplo:
 os.getenv("MONGODB_URL")
 
 5. Debes importar obligatoriamente la librería dotenv como: from dotenv import load_dotenv y poner antes 
-de app load_dotenv()
+de app load_dotenv() (cuando no esta en producción y haz creado la variable de entorno)
 
 6. Sube todos los archivos, menos .env, a un repo en GitHub
 

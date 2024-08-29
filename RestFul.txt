@@ -1,0 +1,22 @@
+
+
+Comandos para trabajar con RestFul (Api Rest) de Flask
+
+
+Para ver los datos en formato json en la pagina web, primero debes ejecutar estos comandos
+
+
+Obtener los recursos:
+	curl http://localhost:5000/NombreDeLaRuta
+
+Actualizar recursos:
+	curl -X PUT -H "Content-Type: application/json" -d "{\"1\": \"Old task\"}" http://localhost:5000/NombreDeLaRuta/DatoID
+
+Agregar un nuevo dato:
+	curl -X POST -H "Content-Type: application/json" -d "{\"data\": \"New data\"}" http://127.0.0.1:5000/NombreDeLaRuta
+
+Eliminar un dato:
+	curl -X DELETE http://127.0.0.1:5000/NombreDeLaRuta/DatoID
+
+Ver datos en formato texto:
+	curl http://localhost:5000/NombreDeLaRuta?format=text
