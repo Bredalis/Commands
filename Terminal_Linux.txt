@@ -20,9 +20,6 @@ Para limpiar la terminal:
 Para cambiar de directorio:
 	cd <ruta del directorio>
 
-Para cambiar de directorio cumpliendo una condicion: 
-	cd D
-
 Para ir al directorio anterior:
 	cd ../
 
@@ -33,7 +30,7 @@ Para ejecutar archivos:
 	./<archivo.formato>
 
 Para ubicarse en la carpeta home:
-	cd -
+	cd ~
 
 Muestra la ruta del directorio actual:
 	pwd 

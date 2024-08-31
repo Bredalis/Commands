@@ -3,7 +3,11 @@
 Comandos de WSL:
 
 
-Para mostrar las distros de Linux:
+Para ver las distros para instalar:
+    wsl --list --online
+    wsl -l -o
+
+Para instalar Subsistema de Windows para Linux:
     wsl --install
 
 Para instalar una distro especifica:

@@ -15,8 +15,6 @@ pip list: Muestra una lista de todos los paquetes instalados y sus versiones
 
 pip show <nombre-del-paquete>: Muestra detalles sobre el paquete, incluyendo su ubicación de instalación y dependencias
 
-pip search <término-de-búsqueda>: Busca paquetes en el índice de PyPI que coincidan con el término de búsqueda especificado
-
 pip freeze > requirements.txt: Genera un archivo requirements.txt con todas las dependencias actuales del entorno
 
 pip install -r requirements.txt: Instala los paquetes y versiones especificadas en el archivo requirements.txt
@@ -27,6 +25,4 @@ pip list --outdated: Muestra una lista de los paquetes instalados que tienen ver
 
 pip list --uptodate: Muestra una lista de los paquetes que están actualizados a sus versiones más recientes
 
-pip install -e <ruta-del-paquete>: Instala el paquete en modo editable, útil durante el desarrollo de paquetes
-
-pipdeptree: (Requiere la instalación del paquete pipdeptree) Muestra un gráfico de las dependencias de los paquetes instalados
+pipdeptree: Muestra un gráfico de las dependencias de los paquetes instalados

@@ -45,9 +45,9 @@ git restore --staged <archivo>: Para deshacer los cambios hechos en ese archivo
 
 git rm <archivo>: Elimina un archivo del repositorio
 
-git tag <nombre>: Etiqueta un commit específico con un nombre
+git tag -a <nombre> -m <mensaje>: Etiqueta un commit específico con un nombre
 
-git commit --amend -m 'Nuevo mensaje': Deshace un commit específico creando un nuevo commit
+git commit --amend -m "Nuevo mensaje": Deshace un commit específico creando un nuevo commit
 
 git pull --allow-unrelated-histories: Esto permitira fusionar historias no relacionadas
 

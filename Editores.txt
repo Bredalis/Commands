@@ -110,17 +110,20 @@ Trabajar con html:
 Vim / NeoVim
 
 
-Instalar Vim en Linux:
+Instalar Vim y NeoVim en Linux:
 	sudo apt install vim
+	sudo apt install nvim
 
-Abrir Vim:
+Abrir Vim y NeoVim:
 	vim
+	neovim
 
-Salir de Vim:
+Salir de Vim y NeoVim:
 	:q
 
 Crear o abrir archivo:
 	vim <archivo>
+	nvim <archivo>
 
 Insertar datos:
 	i
