@@ -9,7 +9,7 @@ Comandos Básicos de SQLAlchemy
 Instala SQLAlchemy como extensión de Flask:
 	- pip install flask-sqlalchemy
 
-Entrar al entorno de Python en la carpeta del programa:
+Entrar al entorno de Python en la carpeta del programa (desde la terminal):
 	- python
 	- from nombre_archivo import db
 
@@ -75,16 +75,3 @@ Ordena los resultados de la consulta en orden descendente:
 
 Agrupa los resultados según un campo específico:
 	- db.session.query(Modelo).group_by(Modelo.campo)
-
-
-Despliegue y Configuración de Producción
-
-
-Despliega la aplicación Flask en producción con Gunicorn:
-	- gunicorn -w 4 app:app
-
-Permite que la aplicación esté accesible desde cualquier dirección IP:
-	- flask run --host=0.0.0.0
-
-Instala el adaptador de PostgreSQL para Python, necesario para conectar Flask con PostgreSQL en producción:
-	- pip install psycopg2

@@ -1,6 +1,6 @@
 
 
-Comandos para trabajar con RestFul (Api Rest) de Flask
+Comandos para trabajar con RestFul (API Rest) de Flask
 
 
 Para ver los datos en formato json en la pagina web, primero debes ejecutar estos comandos

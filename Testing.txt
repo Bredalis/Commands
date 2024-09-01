@@ -9,9 +9,9 @@ Python - PyTest:
 Para ejecutar los testing: 
 
 - Crea un carpeta con los archivos
+- Crea el algoritmo a testear
 - Importa los modulos a testear en el archivo de Testing
 - Abre el cmd
 - Ubicate en la carpeta
 - Ejecuta pytest o pytest -v
-- Para ver el tiempo de ejecucion pytest --durations=0 o 
-  pytest --durations=0 -vv 
+- Para ver el tiempo de ejecucion pytest --durations=0 -vv
