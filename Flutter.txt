@@ -1,0 +1,62 @@
+
+
+Comandos básicos de Flutter:
+
+
+flutter create <nombre_proyecto>: Crea un nuevo proyecto Flutter en un directorio con el nombre especificado
+
+flutter run: Ejecuta la aplicación en un dispositivo/emulador conectado Si hay más de un dispositivo, selecciona 
+el dispositivo donde se ejecutará la app
+
+flutter devices: Muestra una lista de dispositivos conectados y emuladores disponibles para ejecutar la aplicación
+
+flutter doctor: Verifica que Flutter y las herramientas de desarrollo (Android SDK, Xcode, etc) estén correctamente 
+configuradas Informa de cualquier problema
+
+flutter pub get: Descarga e instala las dependencias del proyecto listadas en el archivo pubspecyaml
+
+flutter pub upgrade: Actualiza todas las dependencias a sus últimas versiones compatibles
+
+flutter clean: Elimina los archivos temporales y cachés generados durante la compilación Útil para resolver problemas 
+relacionados con la compilación
+
+flutter build apk: Compila la aplicación en formato APK para dispositivos Android Se utiliza para generar un archivo 
+listo para instalación
+
+flutter build ios: Compila la aplicación para iOS Debe ejecutarse en un entorno macOS con Xcode instalado
+
+flutter test: Ejecuta las pruebas unitarias y de integración del proyecto
+
+flutter upgrade: Actualiza Flutter a la última versión disponible, tanto el SDK como las herramientas
+
+flutter analyze: Analiza el código Dart en el proyecto para detectar posibles errores y advertencias
+
+flutter format <archivo_o_carpeta>: Formatea el código Dart en el archivo o carpeta especificados, siguiendo las reglas 
+de estilo de Dart
+
+flutter pub outdated: Muestra las dependencias que están desactualizadas en tu proyecto y sugiere versiones más recientes
+
+flutter install: Instala el APK de la aplicación en un dispositivo conectado sin ejecutarla automáticamente
+
+flutter channel <nombre_canal>: Cambia al canal de Flutter especificado (ej stable, beta, dev, master), lo que puede 
+permitir el acceso a características experimentales
+
+flutter attach: Adjunta Flutter a una aplicación en ejecución en un dispositivo o emulador para depuración en tiempo real
+
+flutter logs: Muestra los registros en vivo de la aplicación en ejecución en un dispositivo conectado
+
+flutter config: Permite cambiar configuraciones específicas de Flutter, como habilitar o deshabilitar opciones 
+experimentales
+
+flutter screenshot: Toma una captura de pantalla de la aplicación en ejecución en el dispositivo conectado
+
+
+Comandos relacionados con Dart (usados en Flutter):
+
+
+dart --version: Muestra la versión actual de Dart instalada en tu sistema
+
+dart analyze: Analiza el código Dart en busca de errores o advertencias Similar a flutter analyze, pero puede ejecutarse en 
+proyectos no Flutter
+
+dart test: Ejecuta las pruebas Dart en un proyecto
