@@ -14,4 +14,5 @@ Para ejecutar los testing:
 - Abre el cmd
 - Ubicate en la carpeta
 - Ejecuta pytest o pytest -v
+- Ejecutar un archivo específico con pytest -s nombre.py
 - Para ver el tiempo de ejecucion pytest --durations=0 -vv
