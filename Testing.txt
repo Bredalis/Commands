@@ -3,7 +3,7 @@
 Cosas a aplicar para hacer un buen testing:
 
 
-Python - PyTest:
+Python - PyTest y Unittest:
 
 
 Para ejecutar los testing: 
@@ -16,3 +16,4 @@ Para ejecutar los testing:
 - Ejecuta pytest o pytest -v
 - Ejecutar un archivo específico con pytest -s nombre.py
 - Para ver el tiempo de ejecucion pytest --durations=0 -vv
+- Para ejecutarlo con Unittest pon python -m unittest nombre.py
