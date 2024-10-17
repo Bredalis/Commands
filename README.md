@@ -11,14 +11,14 @@
 <a href="https://pypi.org/project/pysqlite3/" target="_blank">
   <img src="https://img.shields.io/badge/SQLite-3498DB">
 </a>
-<a href="https://jestjs.io/es-ES/docs/getting-started" target="_blank">
-  <img src="https://img.shields.io/badge/Jest-2ECC71">
+<a href="https://flask-restful.readthedocs.io/en/latest/" target="_blank">
+  <img src="https://img.shields.io/badge/RestFul-2ECC71">
 </a>
 <a href="https://pypi.org/project/pytest/" target="_blank">
   <img src="https://img.shields.io/badge/PyTest-58D68D">
 </a>
-<a href="https://www.apachefriends.org/es/download.html" target="_blank">
-  <img src="https://img.shields.io/badge/XAMPP-E67E22">
+<a href="https://pypi.org/project/Flask-SQLAlchemy/" target="_blank">
+  <img src="https://img.shields.io/badge/SQLAlchemy-E67E22">
 </a>
 <a href="https://www.sublimetext.com/download" target="_blank">
   <img src="https://img.shields.io/badge/SublimeText-AF601A">
@@ -30,7 +30,7 @@
   <img src="https://img.shields.io/badge/Git-F1C40F">
 </a>
 <a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm" target="_blank">
-  <img src="https://img.shields.io/badge/NPM-27AE60">
+  <img src="https://img.shields.io/badge/Chrome-e74c3c">
 </a>
 <br><br>
 
