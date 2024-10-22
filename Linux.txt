@@ -41,7 +41,7 @@ Ctrl + A: Seleccionar todo.
 Ctrl + F: Buscar una palabra.
 
 
-Universal:
+Universal
 
 
 Ctrl + Shift + C: Copiar.

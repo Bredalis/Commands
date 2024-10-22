@@ -1,19 +1,19 @@
 
 
-Cosas a aplicar para hacer un buen testing:
+Cosas a aplicar para hacer un buen testing
 
 
-Python - PyTest y Unittest:
+Python - PyTest y Unittest
 
 
-Para ejecutar los testing: 
+Para ejecutar los tests:
 
-- Crea un carpeta con los archivos
-- Crea el algoritmo a testear
-- Importa los modulos a testear en el archivo de Testing
-- Abre el cmd
-- Ubicate en la carpeta
-- Ejecuta pytest o pytest -v
-- Ejecutar un archivo específico con pytest -s nombre.py
-- Para ver el tiempo de ejecucion pytest --durations=0 -vv
-- Para ejecutarlo con Unittest pon python -m unittest nombre.py
+- Crea una carpeta con los archivos.
+- Crea el algoritmo a testear.
+- Importa los módulos a testear en el archivo de testing.
+- Abre el CMD.
+- Ubícate en la carpeta.
+- Ejecuta pytest o pytest -v.
+- Ejecuta un archivo específico con pytest -s nombre.py.
+- Para ver el tiempo de ejecución: pytest --durations=0 -vv.
+- Para ejecutarlo con Unittest: pon python -m unittest nombre.py.

@@ -3,123 +3,100 @@
 Comandos básicos
 
 
-Dir: Muestra el contenido del directorio actual.
+Muestra el contenido del directorio actual:
+  dir
 
-Cd: Cambia el directorio actual a la ubicación especificada o vuelve a la carpeta anterior.
-
+Cambia el directorio actual a la ubicación especificada o vuelve a la carpeta anterior:
   cd ..
   cd NombreDelDirectorio
 
 Crear un nuevo archivo:
-
   echo. > nombre_archivo.txt
 
 Insertar datos:
-
   echo Hola >> nombre_archivo.txt
 
-Mkdir o md: Crea un nuevo directorio.
-
+Crea un nuevo directorio:
   mkdir NombreDelDirectorio
   md NombreDelDirectorio
 
-Rmdir o rd: Elimina un directorio vacío.
-
+Elimina un directorio vacío:
   rmdir NombreDelDirectorio
   rd NombreDelDirectorio
 
-Copy: Copia archivos.
-
+Copia archivos:
   copy NombreDelArchivo RutaDestino/NuevoNombre
 
-Xcopy: Copia directorios.
-
+Copia directorios:
   xcopy NombreDelDirectorio destino
 
-Move: Mueve archivos o directorios.
-
+Mueve archivos o directorios:
   move NombreDelArchivo destino
 
-Ren o Rename: Cambia el nombre de un archivo o directorio.
-
+Cambia el nombre de un archivo o directorio:
   ren NombreAntiguo NombreNuevo
-  rename "NombreDelDirectorio" "NombreNuevoDelDirectorio"
+  rename NombreDelDirectorio NombreNuevoDelDirectorio
 
-Del: Elimina un archivo.
-
+Elimina un archivo:
   del NombreDelArchivo
 
-Tasklist: Muestra una lista de procesos en ejecución.
-
+Muestra una lista de procesos en ejecución:
   tasklist
 
-Taskkill: Termina un proceso en ejecución por su nombre o número de proceso.
-
+Termina un proceso en ejecución por su nombre o número de proceso:
   taskkill /F /IM NombreDelProceso.exe
 
-Ipconfig: Muestra información de configuración de red, incluyendo direcciones IP.
-
+Muestra información de configuración de red, incluyendo direcciones IP:
   ipconfig
 
-Ping: Envía paquetes ICMP a una dirección IP para verificar la conectividad de red.
-
+Envía paquetes ICMP a una dirección IP para verificar la conectividad de red:
   ping DirecciónIP
 
-Systeminfo: Muestra información detallada del sistema.
-
+Muestra información detallada del sistema:
   systeminfo
 
-Control: Abre el Panel de control.
-
+Abre el Panel de control:
   control
 
-Shutdown: Apaga o reinicia la computadora.
-
+Apaga o reinicia la computadora:
   shutdown /s /t 0   (Apagar)
   shutdown /r /t 0   (Reiniciar)
 
-Sfc: Escanea y repara archivos dañados del sistema.
-
+Escanea y repara archivos dañados del sistema:
   sfc /scannow
 
-Chkdsk: Verifica y repara errores en un disco duro.
+Ubicarse en el disco duro:
+  cd \
 
-  chkdsk /f C:   (Donde "C" es la unidad a verificar)
+Verifica y repara errores en un disco duro:
+  chkdsk /f C: (Donde C es la unidad a verificar)
 
-Regedit: Abre el Editor del Registro de Windows.
-
+Abre el Editor del Registro de Windows:
   regedit
 
-Cls: Limpia la terminal.
-
+Limpia la terminal:
   cls
 
-Start: Abre otra terminal o abre un software.
-
+Abre otra terminal o abre un software:
   start
   start nombre_del_programa
 
-Comando /?: Muestra la ayuda de dicho comando.
-
+Muestra la ayuda de dicho comando:
   color /?
 
-Title: Cambia el título de la ventana de la terminal.
+Cambia el título de la ventana de la terminal:
+  title Título
 
-  title "Título"
-
-Tree: Muestra la estructura de las carpetas de la PC.
-
+Muestra la estructura de las carpetas de la PC:
   tree
 
-Echo: Imprime texto en pantalla.
+Imprime texto en pantalla:
+  echo Algún texto
 
-  echo "Algún texto"
-
-Type: Lee un archivo de texto.
-
+Lee un archivo de texto:
   type Texto.txt
 
-Attrib: Modifica los atributos de los directorios.
+Modifica los atributos de los directorios:
 
   Lectura:
     attrib +R texto.txt
@@ -130,103 +107,79 @@ Attrib: Modifica los atributos de los directorios.
     attrib +H texto.txt /S
     attrib -H texto.txt
 
-Date: Muestra la fecha.
-
+Muestra la fecha:
   date
   date /t
 
-Time: Muestra la hora.
-
+Muestra la hora:
   time
   time /t
 
-Ver: Muestra la versión del sistema operativo.
-
+Muestra la versión del sistema operativo:
   ver
 
-Whoami: Muestra el usuario que está en la terminal.
-
+Muestra el usuario que está en la terminal:
   whoami
 
-Tracert: Muestra la ruta por la que pasa el dominio.
-
+Muestra la ruta por la que pasa el dominio:
   tracert NombreDelDominio
 
-Netstat: Muestra los estados de la red.
-
+Muestra los estados de la red:
   netstat
 
-Netsh: Muestra las contraseñas Wi-Fi.
-
+Muestra las contraseñas Wi-Fi:
   netsh wlan show profile
-  netsh wlan show profile "NombreDeLaRed" key=clear
+  netsh wlan show profile NombreDeLaRed key=clear
 
-Driverquery: Muestra todos los controladores que tiene la PC.
-
+Muestra todos los controladores que tiene la PC:
   driverquery
 
-Assoc: Muestra o modifica las asociaciones de extensiones de archivo.
-
+Muestra o modifica las asociaciones de extensiones de archivo:
   assoc
 
-Cipher: Muestra o modifica el cifrado de archivos en unidades NTFS.
-
+Muestra o modifica el cifrado de archivos en unidades NTFS:
   cipher
 
-Diskpart: Abre la utilidad de línea de comandos de DiskPart para administrar discos y volúmenes.
-
+Abre la utilidad de línea de comandos de DiskPart para administrar discos y volúmenes:
   diskpart
 
-Dism: Herramienta de mantenimiento y preparación de imágenes de implementación.
-
+Herramienta de mantenimiento y preparación de imágenes de implementación:
   dism
 
-Fc: Compara dos archivos o conjuntos de archivos y muestra las diferencias entre ellos.
-
+Compara dos archivos o conjuntos de archivos y muestra las diferencias entre ellos:
   fc archivo1.txt archivo2.txt
 
-Find: Busca cadenas de texto en archivos.
-
+Busca cadenas de texto en archivos:
   find "texto" archivo.txt
 
-Format: Formatea una unidad de disco.
-
+Formatea una unidad de disco:
   format C:
 
-Ftp: Abre la interfaz de línea de comandos de FTP para transferir archivos.
-
+Abre la interfaz de línea de comandos de FTP para transferir archivos:
   ftp
 
-Code: Abre Visual Studio Code.
-
+Abre Visual Studio Code:
   code .
 
-CMD: Entra en otro Símbolo del Sistema (cmd).
-
+Entra en otro Símbolo del Sistema (cmd):
   cmd
 
-More: Lee archivos largos poco a poco.
-
+Lee archivos largos poco a poco:
   more Archivo.txt
 
-\: Comodines
-
+Comodines:
   Para borrar cualquier archivo que tenga el nombre "hola", sin importar la extensión: del hola.*
   Para borrar cualquier archivo .txt sin importar el nombre: del *.txt
   Para borrar cualquier archivo que tenga "hola" y cualquier palabra después, sin importar su extensión: del hola????.*
 
-Vol: Muestra el volumen del disco duro y número de serie.
-
+Muestra el volumen del disco duro y número de serie:
   vol
 
-Doskey: Crea alias.
-
+Crea alias:
   doskey nombreAlias=comando
 
-Tecla F7: Muestra el historial del cmd.
-
+Muestra el historial del cmd:
   Tecla F7
 
-Netstat: Muestra los puertos activos de Flask.
-
+Muestra los puertos activos de Flask:
   netstat -ano | findstr :5000

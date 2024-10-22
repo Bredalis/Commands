@@ -4,14 +4,14 @@ Comandos de Linux
 
 
 Para ver los archivos y directorios:
-	ls 
+	ls
 
-Para ver la informacion de los archivo y directorios:
+Para ver la información de los archivos y directorios:
 	ls -l
 
-Para mostrar archivos que cumplan la condicion de formato:
-	ls -lh *.<condicion formato>
-	find <ruta de la carpeta> -name *.<condicion formato>
+Para mostrar archivos que cumplan la condición de formato:
+	ls -lh *.<condición formato>
+	find <ruta de la carpeta> -name *.<condición formato>
 
 Para limpiar la terminal:
 	clear
@@ -33,7 +33,7 @@ Para ubicarse en la carpeta home:
 	cd ~
 
 Muestra la ruta del directorio actual:
-	pwd 
+	pwd
 
 Crea un nuevo directorio:
 	mkdir <nombre del directorio>
@@ -44,7 +44,7 @@ Muestra el contenido de un archivo:
 Elimina archivos:
 	rm <nombre del archivo>
 
-Elimina directorios vacios:
+Elimina directorios vacíos:
 	rmdir <nombre del directorio>
 
 Elimina directorios:
@@ -54,18 +54,18 @@ Copia archivos o directorios:
 	cp <nombre del archivo> <ruta para alojarlo>
 
 Mueve o renombra archivos o directorios:
-	mv <archivo.txt> </ruta/destino> 
+	mv <archivo.txt> </ruta/destino>
 
 Muestra los procesos en ejecución y su uso de recursos en tiempo real:
 	top
-	
+
 Muestra el manual de otros comandos:
 	man <comando>
 
 Busca palabras en archivos:
 	grep <archivo> -e "palabra"
 
-Busca palabras en archivos sin importar las mayusculas o minusculas:
+Busca palabras en archivos sin importar las mayúsculas o minúsculas:
 	grep -i <archivo> -e "palabra"
 
 Muestra el tiempo:
@@ -77,7 +77,7 @@ Busca palabras en una carpeta:
 Muestra el tiempo de inicio y final del comando:
 	date; <comando>; date
 
-Buscar una palabra y ubicacion:
+Busca una palabra y su ubicación:
 	grep -n <archivo> -e "palabra"
 
 Busca archivos y directorios en el sistema de archivos:
@@ -110,7 +110,7 @@ Envía señales a procesos para terminarlos:
 Para ver el historial:
 	history
 
-Para saber donde esta un comando:
+Para saber dónde está un comando:
 	which <comando>
 
 Para editar archivos:
@@ -120,10 +120,10 @@ Crear alias:
 	alias <nombre de la variable>=<comando a ejecutar>
 
 Para comprimir archivos:
-	zip <nombre al directorio> *<.formato> *<.formato>
+	zip <nombre del directorio> *.<formato> *.<formato>
 
-Para ver los archivos comprimidos o descomprimirlo:
-	unzip -vl <nombre del directorio .zip>
+Para ver los archivos comprimidos o descomprimirlos:
+	unzip -vl <nombre del archivo.zip>
 
 Para usar el resultado de un comando en otro:
 	<comando> | <otro comando>
@@ -137,17 +137,16 @@ Para hacer cualquier comando sin importar los permisos:
 Para cambiar el idioma del SO:
 	locale
 	sudo dpkg-reconfigure locales
-	Elegir el idioma presionando la tecla espaciadora
-	Darle a Enter
-	Elegir el idioma agregado
+	Seleccionar el idioma presionando la tecla espaciadora,
+	luego presionar Enter, y elegir el idioma agregado.
 
-Para mostrar todos los archivos con su informacion:
+Para mostrar todos los archivos con su información:
 	ls -lha
 
-Para abrir la GUI de kali linux:
+Para abrir la GUI de Kali Linux:
 	sudo kali-win-kex
 
-Para reinir la terminal:
+Para reiniciar la terminal:
 	sudo reboot
 
 Para actualizar paquetes:
@@ -157,13 +156,13 @@ Para cambiar de usuario:
 	su - <nombre de usuario>
 
 Para instalar un paquete:
-	sudo apt install -y <paquete>  
-
-Para reproducir archivo de sonido:
+	sudo apt install -y <paquete>
+	
+Para reproducir archivos de sonido:
 	aplay <archivo>
 
-Para ver la variables de entorno:
-    printenv
+Para ver las variables de entorno:
+	printenv
 
-Para ver los directorios y archivos como un arbol:
+Para ver los directorios y archivos como un árbol:
 	tree

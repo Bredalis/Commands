@@ -3,48 +3,48 @@
 Comandos de WSL:
 
 
-Para ver las distros para instalar:
-    wsl --list --online
+Para ver las distros disponibles para instalar:  
+    wsl --list --online  
     wsl -l -o
 
-Para instalar Subsistema de Windows para Linux:
+Para instalar el Subsistema de Windows para Linux:  
     wsl --install
 
-Para instalar una distro especifica:
+Para instalar una distro específica:  
     wsl --install -d <distro>
 
-Para exportar distros de Linux:
-	wsl --export <distro> <nombre del archivo que guardara la distro>.tar
+Para exportar distros de Linux:  
+    wsl --export <distro> <nombre del archivo que guardará la distro>.tar
 
-Para importar distros en otra pc:
-	wsl --import <nombre para guardar la distro> <ruta para guardar los archivos> .\<nombre del archivo>.tar
+Para importar distros en otra PC:  
+    wsl --import <nombre para guardar la distro> <ruta para guardar los archivos> .\<nombre del archivo>.tar
 
-Para ver la lista de nuestras distro:
-	wsl --list
+Para ver la lista de nuestras distros:  
+    wsl --list
 
-Para eliminar distros:
-	wsl --unregister <nombre de la distro>
+Para eliminar distros:  
+    wsl --unregister <nombre de la distro>
 
-Para ver las distros instaladas y su version:
+Para ver las distros instaladas y su versión:  
     wsl --list --verbose
 
-Para establecer la version de wsl:
-    wsl --set-version <nombre de la distro> <numero de version>
+Para establecer la versión de WSL:  
+    wsl --set-version <nombre de la distro> <número de versión>
 
-Para volver una distro como predeterminada:
+Para hacer que una distro sea la predeterminada:  
     wsl --set-default <nombre de la distro>
-    
-Para volver una version de wsl predeterminada:
-    wsl --set-default-version <numero de version de wsl>
-    
-Para actualizar wsl:
+
+Para establecer una versión de WSL como predeterminada:  
+    wsl --set-default-version <número de versión de WSL>
+
+Para actualizar WSL:  
     wsl --update
 
-Ver el estado de wsl:
+Ver el estado de WSL:  
     wsl --status
 
-Para ver la version:
+Para ver la versión:  
     wsl --version
 
-Para ejecutar bash en Windows:
+Para ejecutar Bash en Windows:  
     wsl bash -c <ruta del script>

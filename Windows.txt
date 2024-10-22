@@ -1,13 +1,13 @@
 
 
-Comandos basicos
+Comandos básicos
 
 
-Windows: abre o cierra el menu de inicio.
+Windows: abre o cierra el menú de inicio.
 
 Windows + A: abre el panel de acciones.
 
-Windows + B: activa los icono en la barra de tareas.
+Windows + B: activa los íconos en la barra de tareas.
 
 Windows + D: esconde las apps abiertas.
 
@@ -17,54 +17,54 @@ Windows + E: abre el explorador de archivos.
 
 Windows + G: abre la barra de juegos.
 
-Windows + I: abre la configuracion.
+Windows + I: abre la configuración.
 
-Windows + K: Coneccion rapida.
+Windows + K: conexión rápida.
 
 Windows + L: bloquea la pantalla.
 
 Windows + M: minimiza todas las ventanas.
 
-Windows + Shift + M: restaurar las ventanas.
+Windows + Shift + M: restaura las ventanas minimizadas.
 
-Windows + P: modo de proyeccion de la pantalla.
+Windows + P: modo de proyección de la pantalla.
 
 Windows + R: ejecutar comandos de Windows.
 
-Windows + S: abrir busqueda.
+Windows + S: abrir búsqueda.
 
 Windows + Shift + S: captura de pantalla o parte de ella.
 
 Windows + T: recorrer aplicaciones en la barra de tareas.
 
-Windows + V: historia del portapapeles.
+Windows + V: historial del portapapeles.
 
 Windows + .: abre el panel de emojis.
 
-Windows + 1-9: abrir aplicacion de la barra de tareas.
+Windows + 1-9: abre aplicaciones de la barra de tareas.
 
 Windows + Tab: vista de aplicaciones abiertas.
 
-Windows + Flechas: acomodar ventanas.
+Windows + Flechas: acomoda ventanas.
 
 Windows + Inicio: minimiza todas las ventanas excepto la actual.
 
-Windows + Pausa: abre las propiedades del sistema. 
+Windows + Pausa: abre las propiedades del sistema.
 
-Windows + Ctrl + D: Crea un escritorio virtual nuevo.
+Windows + Ctrl + D: crea un escritorio virtual nuevo.
 
-Windows + Ctrl + F4: Cierra el escritorio virtual actual.
+Windows + Ctrl + F4: cierra el escritorio virtual actual.
 
-Windows + Shift + Left/Right Arrow: Mueve la ventana activa a otro monitor en una configuración de varios monitores.
+Windows + Shift + Left/Right Arrow: mueve la ventana activa a otro monitor en una configuración de varios monitores.
 
-Windows + Ctrl + F: Busca equipos en una red local.
+Windows + Ctrl + F: busca equipos en una red local.
 
-Windows + H: Comparte contenido a través de la función "Near Share".
+Windows + H: comparte contenido a través de la función "Near Share".
 
-Windows + X: Abre el menú de usuario avanzado.
+Windows + X: abre el menú de usuario avanzado.
 
-Windows + U: Abre el Centro de accesibilidad.
+Windows + U: abre el Centro de accesibilidad.
 
-Windows + Shift + Símbolo de suma (+): Aumenta el zoom de la pantalla.
+Windows + Shift + Símbolo de suma (+): aumenta el zoom de la pantalla.
 
-Windows + - (guion): Reduce el zoom de la pantalla.
+Windows + - (guion): reduce el zoom de la pantalla.

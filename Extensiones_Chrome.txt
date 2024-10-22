@@ -15,8 +15,8 @@ Pasos para usar:
 
 1. Abre el sitio web que deseas probar.
 
-2. Haz clic derecho en cualquier parte de la página y selecciona "Inspeccionar" o presiona `Ctrl + Shift + I` 
-(Windows/Linux) o `Cmd + Option + I` (Mac).
+2. Haz clic derecho en cualquier parte de la página y selecciona "Inspeccionar" o presiona Ctrl + Shift + I 
+(Windows/Linux) o Cmd + Option + I (Mac).
 
 3. En la barra superior de DevTools, haz clic en el ícono de "Toggle device toolbar" (parece un teléfono y 
 una tablet).

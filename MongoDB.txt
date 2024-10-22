@@ -3,8 +3,8 @@
 Comandos para trabajar con MongoDB
 
 
-- Para hacer uso de algun comando, 
-debemos primero hacer uso de la BBDD
+- Para hacer uso de algún comando,  
+debemos primero hacer uso de la BBDD.
 
 
 Mostrar BBDD:
@@ -15,87 +15,87 @@ Crear una BBDD:
 
 	use NombreDeLaBBDD
 
-Crear una coleccion:
+Crear una colección:
 	
-	db.createCollection("NombreDeLaColecion")
+	db.createCollection("NombreDeLaColección")
 
 Eliminar BBDD:
 
 	db.dropDatabase()
 
-Mostar colecciones:
+Mostrar colecciones:
 
 	show collections
 
 Insertar un dato:
 
-	db.NombreDeLaColeccion.insertOne({NombreDelCampo: "Dato", NombreDelOtroCampo: "Dato"})
+	db.NombreDeLaColección.insertOne({NombreDelCampo: "Dato", NombreDelOtroCampo: "Dato"})
 
 Insertar varios datos:
 
-	db.NombreDeLaColeccion.insertMany([{NombreDelCampo: "Datos", NombreDelOtroCampo: "Datos"}, {NombreDelCampo: "Datos", NombreDelOtroCampo: "Datos"}])
+	db.NombreDeLaColección.insertMany([{NombreDelCampo: "Datos", NombreDelOtroCampo: "Datos"}, {NombreDelCampo: "Datos", NombreDelOtroCampo: "Datos"}])
 
-Mostrar los documentos de la coleccion:
+Mostrar los documentos de la colección:
 
- 	db.NombreDeLaColeccion.find()
+ 	db.NombreDeLaColección.find()
 
 Operadores Relacionales:
 
-	db.NombreDeLaColeccion.find({NombreDelCampo: "Valor que queremos buscar"})
+	db.NombreDeLaColección.find({NombreDelCampo: "Valor que queremos buscar"})
 
 	Operador =:
-		db.NombreDeLaColeccion.find({NombreDelCampo: {$eq: "Valor que queremos buscar"}})
+		db.NombreDeLaColección.find({NombreDelCampo: {$eq: "Valor que queremos buscar"}})
 
 	Operador <:
-		db.NombreDeLaColeccion.find({NombreDelCampo: {$lt: "Valor que queremos buscar"}})
+		db.NombreDeLaColección.find({NombreDelCampo: {$lt: "Valor que queremos buscar"}})
 
 	Operador >:
-		db.NombreDeLaColeccion.find({NombreDelCampo: {$gt: "Valor que queremos buscar"}})
+		db.NombreDeLaColección.find({NombreDelCampo: {$gt: "Valor que queremos buscar"}})
 
 	Operador !=:
-		db.NombreDeLaColeccion.find({NombreDelCampo: {$ne: "Valor que no queremos buscar"}})
+		db.NombreDeLaColección.find({NombreDelCampo: {$ne: "Valor que no queremos buscar"}})
 
 	Operador not in:
-		db.NombreDeLaColeccion.find({NombreDelCampo: {$nin:["Valor que no queremos buscar", "Valor que no queremos buscar"]}})
+		db.NombreDeLaColección.find({NombreDelCampo: {$nin:["Valor que no queremos buscar", "Valor que no queremos buscar"]}})
 
 	Operador in:
-		db.NombreDeLaColeccion.find({NombreDelCampo: {$in: ["Valor que esta donde queremos buscar"]}})
+		db.NombreDeLaColección.find({NombreDelCampo: {$in: ["Valor que está donde queremos buscar"]}})
 
-Operadores Logicos:
+Operadores Lógicos:
 
 	Operador and:
-		db.NombreDeLaColeccion.find({$and: [{NombreDelCampo: "Valor" }, {NombreDelCampo: {$gt: "Valor"}}]})
+		db.NombreDeLaColección.find({$and: [{NombreDelCampo: "Valor" }, {NombreDelCampo: {$gt: "Valor"}}]})
 
 	Operador or:
-		db.NombreDeLaColeccion.find({$or: [{NombreDelCampo: "Valor" }, {NombreDelCampo: {$gt: "Valor"}}]})
+		db.NombreDeLaColección.find({$or: [{NombreDelCampo: "Valor" }, {NombreDelCampo: {$gt: "Valor"}}]})
 
 	Operador not:
-		db.NombreDeLaColeccion.find({NombreDelCampo: {$not: {OperadorRelacional: "Valor"}}})
+		db.NombreDeLaColección.find({NombreDelCampo: {$not: {OperadorRelacional: "Valor"}}})
 
 Eliminar un documento:
 
-	db.NombreDeLaColeccion.deleteOne({NombreDelCampo: "Valor"})
+	db.NombreDeLaColección.deleteOne({NombreDelCampo: "Valor"})
 
 Eliminar varios documentos:
 
-	db.NombreDeLaColeccion.deleteMany({NombreDelCampo: "Valor"}, {NombreDelCampo: "Valor"})
+	db.NombreDeLaColección.deleteMany({NombreDelCampo: "Valor"}, {NombreDelCampo: "Valor"})
 
 Actualizar un documento:
 
-	db.NombreDeLaColeccion.updateOne({NombreDelCampo: "Valor"}, {$set: {CualquierCampo: "Nuevo valor"}})
+	db.NombreDeLaColección.updateOne({NombreDelCampo: "Valor"}, {$set: {CualquierCampo: "Nuevo valor"}})
 
 Actualizar varios documentos:
 
-	db.NombreDeLaColeccion.updateMany({NombreDelCampo: {$gt: "Valor"}}, {$set: {CualquierCampo: "Nuevo valor", CualquierCampo: "Nuevo valor"}})
+	db.NombreDeLaColección.updateMany({NombreDelCampo: {$gt: "Valor"}}, {$set: {CualquierCampo: "Nuevo valor", CualquierCampo: "Nuevo valor"}})
 
 Mostrar datos:
 
-	db.NombreDeLaColeccion.find({}, {NombreDelCampo: Valor, NombreDelCampo: Valor})
+	db.NombreDeLaColección.find({}, {NombreDelCampo: Valor, NombreDelCampo: Valor})
 
 Ordenar documentos:
 
 	Orden Ascendente:
-		db.NombreDeLaColeccion.find().sort({NombreDelCampo: 1})
+		db.NombreDeLaColección.find().sort({NombreDelCampo: 1})
 
 	Orden Descendente:
-		db.NombreDeLaColeccion.find().sort({NombreDelCampo: -1})
+		db.NombreDeLaColección.find().sort({NombreDelCampo: -1})

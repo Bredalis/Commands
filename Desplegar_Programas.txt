@@ -11,7 +11,7 @@ Desplegar programas con Flask:
 		app.run()
 
 2. Crea en el proyecto un archivo llamado requirements.txt, donde pondrás las librerías a instalar como:
-flask, python-dotenv y pymongo[srv] (si usas Pymongo) y gunicorn (obligatoreamente)
+flask, python-dotenv y pymongo[srv] (si usas Pymongo) y gunicorn (obligatoreamente).
 
 3. Si usas pymongo y tienes una clave de acceso, debes crear un archivo de entorno llamado .env y agregar
 la clave de acceso, ejemplo:
@@ -19,30 +19,30 @@ la clave de acceso, ejemplo:
 	MONGODB_URL = la clave | VARIABLE = valor
 
 4. Para obtener la variable del archivo de entorno, debes importar os y poner en lugar de la clave, esto: 
-os.getenv("MONGODB_URL")
+os.getenv("MONGODB_URL").
 
 5. Debes importar obligatoriamente la librería dotenv como: from dotenv import load_dotenv y poner antes 
-de app load_dotenv() (cuando no esta en producción y haz creado la variable de entorno)
+de app load_dotenv() (cuando no esta en producción y haz creado la variable de entorno).
 
-6. Sube todos los archivos, menos .env, a un repo en GitHub
+6. Sube todos los archivos, menos .env, a un repo en GitHub.
 
-7. Luego, inicia sesión en Render.com con GitHub
+7. Luego, inicia sesión en Render.com con GitHub.
 
-8. Selecciona la palabra "Nuevo" y elige "Servicios Web" y selecciona el repo a subir de GitHub
+8. Selecciona la palabra "Nuevo" y elige "Servicios Web" y selecciona el repo a subir de GitHub.
 
-9. Llena el formulario para la app y en la última casilla pon: gunicorn 'Nombre_Del_Programa:funcion_de_la_app()'
+9. Llena el formulario para la app y en la última casilla pon: gunicorn 'Nombre_Del_Programa:funcion_de_la_app()'.
 
-10. Si creaste la variable de entorno, agrégala en la barra que dice: NOMBRE_DE_VARIABLE y al lado el valor
+10. Si creaste la variable de entorno, agrégala en la barra que dice: NOMBRE_DE_VARIABLE y al lado el valor.
 
-11. Dale a "Crear Servicio Web" de forma gratuita
+11. Dale a "Crear Servicio Web" de forma gratuita.
 
-12. Si usas pymongo, debes agregar las 3 IPs que aparecen en la parte que dice "Conectar"
+12. Si usas pymongo, debes agregar las 3 IPs que aparecen en la parte que dice "Conectar".
 
 13, Ve al sitio web de MongoDB, a la sección "Network Access" y le das a "Agregar IPs de acceso", que son las 3 
-que aparecen en la sección ya mencionada en el punto 12; vas agregando una por una
+que aparecen en la sección ya mencionada en el punto 12; vas agregando una por una.
 
 14. Presiona en "Implementación Manual" la opción de "Limpiar la caché de compilador e implementar" (cuando haya 
-ocurrido un error en la implementación)
+ocurrido un error en la implementación).
 
 15. Si quieres agregarle un dominio, puedes ir a la sección "Ajustes" y bajar hasta ver la barra de "Dominio personalizado", 
-ahí lo pones
+ahí lo pones.
