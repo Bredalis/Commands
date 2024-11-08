@@ -42,12 +42,24 @@ cual se hará la división de pestañas.
 
 html:5 + Tab: para crear la esctructura basica de HTML.
 
+Ctrl + Shift + X - Abrir extensión del panel.
+
+F2 - Renombrar variable.
+
+Ctrl + / - Comentar o descomentar la línea.
+
+Ctrl + K + Z - Entrar en modo sin distracciones.
+
+Ctrl + Shift + - Terminal integrada.
+
 
 Ambos
 
 
 Ctrl + Shift + P: Acceso a Command Palette desde donde se puede cambia la sintáxis, acceder a Package Control, puedes buscar 
 lo que quieras.
+
+Ctrl + Alt + ↑ / ↓ - Selección múltiple en líneas consecutivas.
 
 Ctrl + G: Ir a una línea.
 

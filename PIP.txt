@@ -26,3 +26,9 @@ pip list --outdated: Muestra una lista de los paquetes instalados que tienen ver
 pip list --uptodate: Muestra una lista de los paquetes que están actualizados a sus versiones más recientes.
 
 pipdeptree: Muestra un gráfico de las dependencias de los paquetes instalados.
+
+pip search palabra_clave - Buscar un paquete.
+
+pip check - Revisar compatibilidad de dependencias.
+
+pip cache purge - Limpiar caché de pip.
