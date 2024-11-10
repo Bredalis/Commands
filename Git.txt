@@ -47,6 +47,10 @@ git rm <archivo>: Elimina un archivo del repositorio.
 
 git tag -a <nombre> -m <mensaje>: Etiqueta un commit específico con un nombre.
 
+git push origin <nombre>: Sube el tag a GitHub.
+
+git push --tags: Sube todos los tags.
+
 git commit --amend -m "Nuevo mensaje": Deshace un commit específico creando un nuevo commit.
 
 git pull --allow-unrelated-histories: Esto permitira fusionar historias no relacionadas.
