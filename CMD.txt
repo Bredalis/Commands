@@ -22,6 +22,7 @@ Crea un nuevo directorio:
 
 Elimina un directorio vacío:
   rmdir NombreDelDirectorio
+  rmdir NombreDelDirectorio /s /q
   rd NombreDelDirectorio
 
 Copia archivos:
@@ -61,6 +62,9 @@ Abre el Panel de control:
 Apaga o reinicia la computadora:
   shutdown /s /t 0   (Apagar)
   shutdown /r /t 0   (Reiniciar)
+
+Cancelar un apagado/reinicio programado:
+  shutdown /a
 
 Escanea y repara archivos dañados del sistema:
   sfc /scannow
@@ -183,3 +187,12 @@ Muestra el historial del cmd:
 
 Muestra los puertos activos de Flask:
   netstat -ano | findstr :5000
+
+Muestra el nombre del equipo:
+  hostname
+
+Comprimir un archivo en formato ZIP:
+  tar -a -c -f NombreArchivo.zip RutaArchivo o RutaDirectorio
+
+Descomprimir un archivo ZIP:
+  tar -xf NombreArchivo.zip
