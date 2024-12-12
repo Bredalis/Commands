@@ -13,6 +13,12 @@ Para mostrar archivos que cumplan la condición de formato:
 	ls -lh *.<condición formato>
 	find <ruta de la carpeta> -name *.<condición formato>
 
+Buscar archivos por nombre:
+	find <ruta> -name <"Nombre del archivo.formato">                                                             
+
+Buscar archivos modificados en los últimos 7 días:
+	find <ruta> -type f -mtime -7
+
 Para limpiar la terminal:
 	clear
 	ctrl + l

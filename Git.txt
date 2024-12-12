@@ -23,6 +23,10 @@ git branch: Lista todas las ramas en el repositorio local.
 
 git branch -d <nombre-de-la-rama>: Para borrar una rama.
 
+git branch -m <nuevo-nombre>: Renombrar la rama actual.
+
+git branch -m <antiguo-nombre> <nuevo-nombre>: Renombrar una rama específica.
+
 git checkout -b <rama>: Para crear una nueva rama.
 
 git checkout <rama>: Cambia a una rama específica.
@@ -31,11 +35,21 @@ git merge <rama>: Fusiona los cambios de una rama específica a la rama actual.
 
 git log: Muestra el historial de confirmaciones.
 
+git log -p: Muestra el historial completo con parches.
+
+git log --author="Nombre Autor": Ver el historial por autor.
+
 git diff: Muestra las diferencias entre los cambios en los archivos.
+
+git diff <commit1> <commit2>: Comparar dos commits específicos.
 
 git stash: Guarda temporalmente cambios locales sin confirmar.
 
+git stash list: Ver todos los stashes guardados.
+
 git remote -v: Muestra los repositorios remotos configurados.
+
+git push origin --delete <rama-remota>: Eliminar una rama remota.
 
 git reset HEAD <archivo>: Quita un archivo del área de preparación.
 
