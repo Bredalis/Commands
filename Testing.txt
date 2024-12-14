@@ -15,5 +15,6 @@ Para ejecutar los tests:
 - Ubícate en la carpeta.
 - Ejecuta pytest o pytest -v.
 - Ejecuta un archivo específico con pytest -s nombre.py.
-- Para ver el tiempo de ejecución: pytest --durations=0 -vv.
-- Para ejecutarlo con Unittest: pon python -m unittest nombre.py.
+- Ejecuta solo una prueba específica, pytest test_nombre.py::test_prueba.
+- Para ver el tiempo de ejecución, pytest --durations=0 -vv.
+- Para ejecutarlo con Unittest, pon python -m unittest nombre.py.
