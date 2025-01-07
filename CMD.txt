@@ -196,3 +196,6 @@ Comprimir un archivo en formato ZIP:
 
 Descomprimir un archivo ZIP:
   tar -xf NombreArchivo.zip
+
+Para devolver arte ASCII temático:
+  curl ascii.live/rick
