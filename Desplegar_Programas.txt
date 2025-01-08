@@ -38,7 +38,7 @@ de app load_dotenv() (cuando no esta en producción y haz creado la variable de 
 
 12. Si usas pymongo, debes agregar las 3 IPs que aparecen en la parte que dice "Conectar".
 
-13, Ve al sitio web de MongoDB, a la sección "Network Access" y le das a "Agregar IPs de acceso", que son las 3 
+13. Ve al sitio web de MongoDB, a la sección "Network Access" y le das a "Agregar IPs de acceso", que son las 3 
 que aparecen en la sección ya mencionada en el punto 12; vas agregando una por una.
 
 14. Presiona en "Implementación Manual" la opción de "Limpiar la caché de compilador e implementar" (cuando haya 
