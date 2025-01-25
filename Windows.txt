@@ -68,3 +68,5 @@ Windows + U: abre el Centro de accesibilidad.
 Windows + Shift + Símbolo de suma (+): aumenta el zoom de la pantalla.
 
 Windows + - (guion): reduce el zoom de la pantalla.
+
+ALT + F4: cierra la app de Chrome.
